@@ -22,7 +22,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 2
-          persist-credentials: false
+          persist-credentials: true
+          # token defaults to ${{ github.token }} which honors permissions above
 
       - name: Get changed HTML files (paths -> normalized URLs)
         id: changed-files
@@ -151,9 +152,14 @@ jobs:
             fi
           fi
 
-      - name: Commit and push sitemap.xml
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+      - name: Show remote and auth header (debug)
+        if: always()
+        run: |
+          git remote -v
+          # This prints a masked auth header when credentials are present
+          git config --local --get-all http.https://github.com/.extraheader || true
+
+      - name: Commit and push sitemap.xml (use origin + GITHUB_TOKEN)
         shell: bash
         run: |
           set -euo pipefail
@@ -165,7 +171,5 @@ jobs:
             exit 0
           fi
           git commit -m "Auto-update sitemap.xml"
-          # Ensure no conflicting auth header from checkout
-          git config --local --unset-all http.https://github.com/.extraheader || true
-          # Push with PAT
-          git push "https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}.git" HEAD:${{ github.ref_name }}
+          # DO NOT unset the extraheader here; it carries the token from checkout
+          git push origin HEAD:${GITHUB_REF_NAME:-${{ github.ref_name }}}
