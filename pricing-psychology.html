@@ -150,15 +150,16 @@
         }
 
         .logo img {
-            height: 40px;
+            height: 36px;
             width: auto;
-            transition: opacity 0.3s ease;
+            transition: transform 0.3s ease;
         }
 
-        .logo.logo-failed img {
-            display: none;
+        .logo:hover img {
+            transform: scale(1.05);
         }
 
+        /* Logo Fallback Styling */
         .logo-fallback {
             font-size: 1.8rem;
             font-weight: 700;
@@ -166,6 +167,14 @@
             letter-spacing: -0.02em;
             font-family: var(--font-serif);
             transition: all 0.3s ease;
+            display: none;
+        }
+
+        .logo:hover .logo-fallback {
+            transform: scale(1.05);
+        }
+
+        .logo.logo-failed img {
             display: none;
         }
 
@@ -455,8 +464,10 @@
     <!-- Navigation -->
     <nav>
         <div class="nav-container">
-            <a href="https://contraco.de/" class="logo">
-                <img src="/logo-new.svg" alt="contraco" onerror="this.parentElement.classList.add('logo-failed')">
+            <a href="https://contraco.de/" class="logo" id="site-logo">
+                <img src="https://contraco.net/Logo_rectangle.svg"
+                     alt="contraco"
+                     onerror="this.parentElement.classList.add('logo-failed');">
                 <span class="logo-fallback">contraco</span>
             </a>
             <div style="display: flex; align-items: center;">
@@ -620,15 +631,38 @@
     </footer>
 
     <script>
-        // Logo fallback
-        document.addEventListener('DOMContentLoaded', function() {
-            const logo = document.querySelector('.logo img');
-            if (logo) {
-                logo.addEventListener('error', function() {
-                    this.parentElement.classList.add('logo-failed');
-                });
+        // Enhanced logo fallback with retry mechanism
+        (function() {
+            const logo = document.getElementById('site-logo');
+            if (!logo) return;
+
+            const logoImg = logo.querySelector('img');
+            if (!logoImg) return;
+
+            let retryCount = 0;
+            const maxRetries = 2;
+
+            function handleLogoError() {
+                if (retryCount < maxRetries) {
+                    retryCount++;
+                    setTimeout(() => {
+                        logoImg.src = 'https://contraco.net/Logo_rectangle.svg';
+                    }, 1000 * retryCount);
+                } else {
+                    logo.classList.add('logo-failed');
+                }
             }
-        });
+
+            if (logoImg.complete && logoImg.naturalHeight === 0) {
+                handleLogoError();
+            }
+
+            logoImg.addEventListener('error', handleLogoError);
+
+            logoImg.addEventListener('load', function() {
+                logo.classList.remove('logo-failed');
+            });
+        })();
     </script>
 </body>
 </html>
