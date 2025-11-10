@@ -605,7 +605,10 @@
                             Teilen Sie uns Ihre Transformationsherausforderung mit. Wir werden Ihre Nachricht prüfen und innerhalb von 24 Stunden antworten.
                         </p>
                         
-                        <form action="https://contraco.de/thank-you.html" method="post">
+                        <form action="https://formsubmit.co/transformation@contraco.net" method="POST">
+                            <input type="hidden" name="_next" value="https://contraco.de/thank-you.html">
+                            <input type="hidden" name="_subject" value="Neue Kontaktanfrage von contraco.de">
+                            <input type="hidden" name="_captcha" value="false">
                             <div class="form-group">
                                 <label for="name">Ihr Name *</label>
                                 <input type="text" id="name" name="name" required>
@@ -678,5 +681,20 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        // Form submission tracking
+        if (typeof gtag !== 'undefined') {
+            const contactForm = document.querySelector('form');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function() {
+                    gtag('event', 'form_submission', {
+                        event_category: 'Contact Form',
+                        event_label: 'contraco.de Contact Form - Contact Page'
+                    });
+                });
+            }
+        }
+    </script>
 </body>
 </html>

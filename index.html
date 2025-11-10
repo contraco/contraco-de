@@ -842,7 +842,10 @@
                     <p><strong>Telefon:</strong> +1 (312) 940-0326</p>
                     <p>Wir antworten innerhalb von 24 Stunden auf alle Anfragen.</p>
                 </div>
-                <form class="contact-form" action="#" method="post">
+                <form class="contact-form" action="https://formsubmit.co/transformation@contraco.net" method="POST">
+                    <input type="hidden" name="_next" value="https://contraco.de/thank-you.html">
+                    <input type="hidden" name="_subject" value="Neue Anfrage von contraco.de">
+                    <input type="hidden" name="_captcha" value="false">
                     <div class="form-group">
                         <input type="text" name="name" placeholder="Ihr Name" required>
                     </div>
@@ -895,5 +898,31 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        // Form submission and CTA tracking
+        if (typeof gtag !== 'undefined') {
+            // Track form submissions
+            const contactForm = document.querySelector('.contact-form');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function() {
+                    gtag('event', 'form_submission', {
+                        event_category: 'Contact Form',
+                        event_label: 'contraco.de Contact Form - Homepage'
+                    });
+                });
+            }
+
+            // Track CTA button clicks
+            document.querySelectorAll('.cta-button, .btn-primary').forEach(button => {
+                button.addEventListener('click', () => {
+                    gtag('event', 'cta_click', {
+                        event_category: 'CTA',
+                        event_label: button.textContent.trim()
+                    });
+                });
+            });
+        }
+    </script>
 </body>
 </html>
