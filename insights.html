@@ -423,6 +423,25 @@
             font-size: 0.9rem;
         }
 
+        .footer-privacy-links {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+
+        .footer-privacy-links a {
+            color: var(--warm-gray-medium);
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-privacy-links a:hover {
+            color: var(--primary-red);
+            text-decoration: underline;
+        }
+
         /* Responsive Design */
         @media (max-width: 768px) {
             .container,
@@ -613,6 +632,9 @@
                 </div>
             </div>
             <div class="footer-bottom">
+                <div class="footer-privacy-links">
+                    <a href="/privacy-statement.html">Datenschutzerklärung</a>
+                </div>
                 <p>&copy; 2025 contraco. Alle Rechte vorbehalten.</p>
             </div>
         </div>
