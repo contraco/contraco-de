@@ -25,10 +25,16 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://contraco.de/cultural-guide.html</loc>
-    <lastmod>2025-11-09</lastmod>
+    <loc>https://contraco.de/cultural-adaptation-guide.html</loc>
+    <lastmod>2025-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://contraco.de/copyright.html</loc>
+    <lastmod>2025-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://contraco.de/digital-transformation-roi.html</loc>
@@ -50,12 +56,6 @@
   </url>
   <url>
     <loc>https://contraco.de/leading-ai-transformation.html</loc>
-    <lastmod>2025-11-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://contraco.de/navigation_template.html</loc>
     <lastmod>2025-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -85,8 +85,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://contraco.de/thankyou.html</loc>
-    <lastmod>2025-11-09</lastmod>
+    <loc>https://contraco.de/thank-you.html</loc>
+    <lastmod>2025-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
