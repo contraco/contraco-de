@@ -85,6 +85,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://contraco.de/publikationen.html</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://contraco.de/resonance-method.html</loc>
     <lastmod>2026-04-24</lastmod>
     <changefreq>weekly</changefreq>
