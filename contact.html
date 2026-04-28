@@ -431,6 +431,18 @@
             transform: translateY(-2px);
         }
 
+        .form-privacy-notice {
+            font-size: 0.82rem;
+            color: var(--warm-gray-dark);
+            margin-bottom: 16px;
+            line-height: 1.5;
+        }
+
+        .form-privacy-notice a {
+            color: var(--primary-red);
+            text-decoration: underline;
+        }
+
         /* Response Time Notice */
         .response-notice {
             background: var(--deep-charcoal);
@@ -671,6 +683,7 @@
                                 <textarea id="message" name="message" placeholder="Erzählen Sie uns von Ihren spezifischen Herausforderungen, Zielen oder Fragen zur digitalen Transformation..."></textarea>
                             </div>
                             
+                            <p class="form-privacy-notice">Mit dem Absenden dieses Formulars bestätigen Sie unsere <a href="/privacy-statement.html">Datenschutzerklärung</a>, einschließlich Rechtsgrundlage, Aufbewahrungsfristen sowie Ihres Rechts auf Auskunft und Löschung.</p>
                             <button type="submit" class="submit-button">Nachricht senden</button>
                         </form>
                     </div>
