@@ -61,11 +61,18 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": "Organization",
         "name": "contraco",
+        "alternateName": "contraco USA",
         "url": "https://contraco.de/",
-        "email": "mailto:transformation@contraco.net",
-        "telephone": "+1-312-940-0326",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://contraco.de/Logo_rectangle.svg",
+            "width": 400,
+            "height": 100
+        },
+        "email": "transformation@contraco.net",
+        "telephone": "+13129400326",
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "1209 10th Ln.",
@@ -74,7 +81,21 @@
             "postalCode": "65608",
             "addressCountry": "US"
         },
-        "foundingDate": "1998"
+        "foundingDate": "1998",
+        "founder": {
+            "@type": "Person",
+            "name": "Frank Meltke",
+            "jobTitle": "Transformation Consultant",
+            "url": "https://www.linkedin.com/in/frankmeltke"
+        },
+        "areaServed": "Global",
+        "sameAs": [
+            "https://www.linkedin.com/company/contraco",
+            "https://contraco.com",
+            "https://contraco.net",
+            "https://contraco.ru",
+            "https://contraco.co.kr"
+        ]
     }
     </script>
     
@@ -410,6 +431,18 @@
             transform: translateY(-2px);
         }
 
+        .form-privacy-notice {
+            font-size: 0.82rem;
+            color: var(--warm-gray-dark);
+            margin-bottom: 16px;
+            line-height: 1.5;
+        }
+
+        .form-privacy-notice a {
+            color: var(--primary-red);
+            text-decoration: underline;
+        }
+
         /* Response Time Notice */
         .response-notice {
             background: var(--deep-charcoal);
@@ -565,6 +598,7 @@
                     <li><a href="https://contraco.de/#methodology" class="nav-link">Methodik</a></li>
                     <li><a href="https://contraco.de/insights.html" class="nav-link">Insights</a></li>
                     <li><a href="https://contraco.de/about.html" class="nav-link">Über uns</a></li>
+                    <li><a href="https://contraco.de/publikationen.html" class="nav-link">Publikationen</a></li>
                     <li><a href="https://contraco.de/contact.html" class="nav-link active">Kontakt</a></li>
                 </ul>
                 <div class="language-switcher">
@@ -649,6 +683,7 @@
                                 <textarea id="message" name="message" placeholder="Erzählen Sie uns von Ihren spezifischen Herausforderungen, Zielen oder Fragen zur digitalen Transformation..."></textarea>
                             </div>
                             
+                            <p class="form-privacy-notice">Mit dem Absenden dieses Formulars bestätigen Sie unsere <a href="/privacy-statement.html">Datenschutzerklärung</a>, einschließlich Rechtsgrundlage, Aufbewahrungsfristen sowie Ihres Rechts auf Auskunft und Löschung.</p>
                             <button type="submit" class="submit-button">Nachricht senden</button>
                         </form>
                     </div>
