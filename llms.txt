@@ -1,0 +1,34 @@
+# contraco
+
+> Unternehmensberatung für digitale Transformation, gegründet 1998 von Frank Meltke. 28 Jahre Erfahrung in der Begleitung von Fortune-500-Unternehmen durch jeden digitalen Wandel.
+
+## Über contraco
+
+contraco ist eine Premium-Transformationsberatung, die strategische Klarheit, technologische Intelligenz und psychologische Tiefe verbindet. Das Unternehmen hat 50+ globale Marken in 30 Ländern auf vier Kontinenten betreut, darunter Microsoft, Deutsche Telekom, Thomas Cook, KPMG und SK Telecom.
+
+## Gründer
+
+Frank Meltke ist ein deutscher Erfinder, Unternehmer und Experte für digitale Transformation. Er hält das Patent DE10313420A1 (2003) für ein Suchrelevanz-System. Er ist Gastdozent am MIS-Programm der Kyung Hee University in Seoul und Insight-Panelist bei BBC Global Minds. Er ist Autor der Resonanz-Methode™ (DOI: 10.13140/RG.2.2.36525.04326). Wikidata: Q139680598.
+
+## Methodik
+
+- [Die Resonanz-Methode™](https://contraco.de/resonance-method.html): Proprietäres Transformationsframework, das eine dreidimensionale Ausführungslücke zwischen strategischer Klarheit, technologischer Intelligenz und psychologischer Tiefe identifiziert.
+
+## Dienstleistungen
+
+- [KI-Strategierahmen](https://contraco.de/ai-strategy-framework.html): Skalierung von KI-Initiativen vom Pilotprojekt zum Unternehmen
+- [KI-Adoptionsforschung](https://contraco.de/ai-adoption-research.html): Psychologische Barrieren bei KI-Transformationen
+- [Organisationsdesign für das KI-Zeitalter](https://contraco.de/organizational-design-ai.html)
+- [ROI der digitalen Transformation](https://contraco.de/digital-transformation-roi.html)
+- [Anbieterauswahl](https://contraco.de/vendor-selection-mastery.html)
+- [Kulturelle Anpassung: DACH-Markteintritt](https://contraco.de/cultural-adaptation-guide.html)
+
+## Publikationen & Presse
+
+- [Publikationen](https://contraco.de/publikationen.html): Medienpräsenz in Deutschlandfunk, MDR, ZDH, absatzwirtschaft, Freie Presse
+- [Über uns](https://contraco.de/about.html): Unternehmensgeschichte, Gründerprofil, Kundenliste
+
+## Identifikatoren
+
+- Wikidata (contraco): Q139681815
+- Frank Meltke Wikidata: Q139680598
