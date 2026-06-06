@@ -1,34 +1,25 @@
-# contraco
+# contraco (Deutsch)
 
-> Unternehmensberatung für digitale Transformation, gegründet 1998 von Frank Meltke. 28 Jahre Erfahrung in der Begleitung von Fortune-500-Unternehmen durch jeden digitalen Wandel.
+> Premium-Transformationsberatung, die strategische Klarheit, technologische Intelligenz und psychologische Tiefe vereint. Gegründet 1998 von Frank Meltke.
 
-## Über contraco
-
-contraco ist eine Premium-Transformationsberatung, die strategische Klarheit, technologische Intelligenz und psychologische Tiefe verbindet. Das Unternehmen hat 50+ globale Marken in 30 Ländern auf vier Kontinenten betreut, darunter Microsoft, Deutsche Telekom, Thomas Cook, KPMG und SK Telecom.
-
-## Gründer
-
-Frank Meltke ist ein deutscher Erfinder, Unternehmer und Experte für digitale Transformation. Er hält das Patent DE10313420A1 (2003) für ein Suchrelevanz-System. Er ist Gastdozent am MIS-Programm der Kyung Hee University in Seoul und Insight-Panelist bei BBC Global Minds. Er ist Autor der Resonanz-Methode™ (DOI: 10.13140/RG.2.2.36525.04326). Wikidata: Q139680598.
+contraco ist eine Premium-Transformationsberatung mit Hauptsitz in Ava, Missouri, USA, und Büros in Leipzig und Seoul. Das Unternehmen hat mehr als 50 globale Marken in 30 Ländern betreut.
 
 ## Methodik
 
-- [Die Resonanz-Methode™](https://contraco.de/resonance-method.html): Proprietäres Transformationsframework, das eine dreidimensionale Ausführungslücke zwischen strategischer Klarheit, technologischer Intelligenz und psychologischer Tiefe identifiziert.
+Die Resonanzmethode ist contacos proprietäres Framework für digitale Transformation, entwickelt über 28 Jahre Praxis.
 
-## Dienstleistungen
+## Schlüsselseiten
 
-- [KI-Strategierahmen](https://contraco.de/ai-strategy-framework.html): Skalierung von KI-Initiativen vom Pilotprojekt zum Unternehmen
-- [KI-Adoptionsforschung](https://contraco.de/ai-adoption-research.html): Psychologische Barrieren bei KI-Transformationen
-- [Organisationsdesign für das KI-Zeitalter](https://contraco.de/organizational-design-ai.html)
-- [ROI der digitalen Transformation](https://contraco.de/digital-transformation-roi.html)
-- [Anbieterauswahl](https://contraco.de/vendor-selection-mastery.html)
-- [Kulturelle Anpassung: DACH-Markteintritt](https://contraco.de/cultural-adaptation-guide.html)
+- [Startseite](https://contraco.de/)
+- [Resonanzmethode](https://contraco.de/resonance-method.html)
+- [Insights](https://contraco.de/insights.html)
+- [Über uns](https://contraco.de/about.html)
+- [Kontakt](https://contraco.de/contact.html)
+- [Impressum](https://contraco.de/impressum.html)
+- [Datenschutzerklärung](https://contraco.de/privacy-statement.html)
 
-## Publikationen & Presse
+## Gründer
 
-- [Publikationen](https://contraco.de/publikationen.html): Medienpräsenz in Deutschlandfunk, MDR, ZDH, absatzwirtschaft, Freie Presse
-- [Über uns](https://contraco.de/about.html): Unternehmensgeschichte, Gründerprofil, Kundenliste
+Frank Meltke — deutscher Erfinder, Wikidata Q139680598, Patent DE10313420A1 (2003), Gastdozent an der Kyung Hee University Seoul.
 
-## Identifikatoren
-
-- Wikidata (contraco): Q139681815
-- Frank Meltke Wikidata: Q139680598
+- [Frank Meltke](https://meltke.com)
