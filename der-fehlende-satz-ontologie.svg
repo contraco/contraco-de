@@ -52,8 +52,8 @@
 
   <!-- Graph edges (behind nodes) -->
   <g stroke="#B7B2AB" stroke-width="1.6">
-    <line x1="600" y1="380" x2="480" y2="244"/>
-    <line x1="600" y1="380" x2="720" y2="244"/>
+    <line x1="600" y1="380" x2="480" y2="264"/>
+    <line x1="600" y1="380" x2="720" y2="264"/>
     <line x1="600" y1="380" x2="480" y2="508"/>
     <line x1="600" y1="380" x2="720" y2="508"/>
   </g>
@@ -62,14 +62,14 @@
 
   <!-- Satellite nodes -->
   <g filter="url(#soft)">
-    <rect x="405" y="222" width="150" height="44" rx="9" fill="#FFFFFF" stroke="#404040"/>
-    <rect x="645" y="222" width="150" height="44" rx="9" fill="#FFFFFF" stroke="#404040"/>
+    <rect x="405" y="242" width="150" height="44" rx="9" fill="#FFFFFF" stroke="#404040"/>
+    <rect x="645" y="242" width="150" height="44" rx="9" fill="#FFFFFF" stroke="#404040"/>
     <rect x="405" y="486" width="150" height="44" rx="9" fill="#FFFFFF" stroke="#404040"/>
     <rect x="645" y="486" width="150" height="44" rx="9" fill="#FFFFFF" stroke="#404040"/>
   </g>
   <g fill="#404040" font-size="14" text-anchor="middle">
-    <text x="480" y="250">Einsatzkontext</text>
-    <text x="720" y="250">Zielgruppe</text>
+    <text x="480" y="270">Einsatzkontext</text>
+    <text x="720" y="270">Zielgruppe</text>
     <text x="480" y="514">Anlass</text>
     <text x="720" y="514">Berater (Quelle)</text>
   </g>
