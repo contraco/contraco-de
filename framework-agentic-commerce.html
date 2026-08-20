@@ -145,6 +145,40 @@
     }
     </script>
 
+    <!-- Schema.org FAQPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Ab welcher Stufe wird die Rechtsfrage relevant?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ab Stufe 3, sobald die Maschine die Auswahl trifft und nicht mehr nur vorbereitet. Solange ein Mensch den letzten Klick setzt, ist die Erklärung unproblematisch seine. Sobald der Agent innerhalb eines vorab gesetzten Rahmens selbst abschließt, verlagert sich der rechtlich entscheidende Moment nach vorn, in die Ersteinrichtung. Ab Stufe 4 ist diese Verlagerung vollständig, weil zwischen Konfiguration und Abschluss keine menschliche Handlung mehr liegt. Unternehmen, die ihre Stufe kennen, wissen damit auch, ob sie eine Dokumentationspflicht haben oder noch nicht."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Reicht Compliance mit der KI-Verordnung aus?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Nein. Die KI-Verordnung regelt, unter welchen Auflagen ein System betrieben werden darf. Sie beantwortet nicht, wem die Erklärung zugerechnet wird, die dieses System abgibt. Das sind zwei verschiedene Fragen mit zwei verschiedenen Adressaten: die eine gegenüber der Aufsicht, die andere gegenüber dem Vertragspartner im Streitfall. Ein Unternehmen kann die Anforderungen an Transparenz, Protokollierung und menschliche Aufsicht vollständig erfüllen und trotzdem nicht belegen können, welcher Willenskorridor einer konkreten Bestellung zugrunde lag. Die aufsichtsrechtliche und die zivilrechtliche Seite müssen getrennt geplant werden."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Was ist eine autonome Computererklärung?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Eine Erklärung, die ein System abgibt und die dem Nutzer über dessen vorherige Konfiguration zugerechnet wird. Sie ist kein Sonderfall der Stellvertretung, sondern eine gestreckte Willenserklärung: Sie beginnt bei der Ersteinrichtung, in der Grenzen, Präferenzen und Bedingungen gesetzt werden, und vollendet sich, wenn der Agent innerhalb dieses Korridors handelt. Der praktische Gewinn dieser Einordnung ist, dass sie eine klare Anforderung erzeugt. Nicht ein Rechtstext ist zu entwerfen, sondern eine Konfigurationsoberfläche, deren Inhalt und Version zu jedem Zeitpunkt nachweisbar ist."
+                }
+            }
+        ]
+    }
+    </script>
+
     <style>
         :root {
             --primary-red: #C00000;
@@ -463,6 +497,25 @@
                     <p class="section-body">Der EU-KI-Act fügt eine zweite Dimension hinzu, verschiebt sie aber zeitlich. Der Digital-Omnibus hat die Pflichten für Hochrisikosysteme nach Anhang III auf den 2. Dezember 2027 verlegt, eingebettete Systeme nach Anhang I folgen am 2. August 2028. Die verbotenen Praktiken gelten seit Februar 2025, die Pflichten für Basismodelle seit August 2025, beide unverändert. Betreiber von KI-Systemen, die in Kaufentscheidungen eingreifen, tragen damit Dokumentations- und Transparenzpflichten, deren Frist noch läuft und die heute in den meisten Implementierungen nicht erfüllt werden. Das gilt unabhängig davon, ob das Unternehmen Käufer oder Verkäufer ist. Die DSGVO-Anforderungen für automatisierte Entscheidungsfindung nach Artikel 22 betreffen Level-3- bis Level-5-Implementierungen direkt, wenn die automatisierte Entscheidung für den Betroffenen rechtliche Wirkung oder ähnlich erhebliche Beeinträchtigung entfaltet. Im B2B-Kontext ist die Einordnung weniger eindeutig, aber nicht irrelevant.</p>
                     <p class="section-body">Für den deutschen Einzelhandel kommen Besonderheiten im Zahlungsverkehr hinzu: Zahlungsauslösung durch autonome Agenten über SEPA-Lastschrift, Kreditkarten-Tokenisierung oder Open-Banking-Schnittstellen nach PSD2 ist technisch möglich, aber regulatorisch in einem Graubereich, den unsere Analyse <a href="https://contraco.de/agentic-commerce-delegation-chain.html">Die Delegationskette</a> im Detail behandelt und der weder durch BaFin-Leitlinien noch durch aktuelle EZB-Einschätzungen vollständig abgedeckt ist. Wer agentische Zahlungsauslösung produktiv einsetzt, sollte die rechtliche Qualifikation dieser Transaktionen mit einer auf Zahlungsrecht spezialisierten Kanzlei klären, bevor das Volumen betriebsrelevant wird.</p>
                     <p class="section-body">Das Agentic-Commerce-Framework ist kein Maßstab für technologischen Fortschritt. Es ist ein Diagnosewerkzeug: Es beschreibt, wo Käufer heute sind, welche Anforderungen das an Anbieter stellt und welche Governance-Strukturen für jeden Autonomiegrad erforderlich sind. Die vollständige Governance-Analyse für den europäischen Kontext findet sich in unserem Beitrag <a href="https://contraco.de/agentic-commerce-eu-ki-verordnung.html">Agentic Commerce und die EU-KI-Verordnung</a>. Die architektonische Frage, wo Kontrolle in agentischen Systemen verankert sein muss, behandelt <a href="https://contraco.de/agentic-commerce-control-layer.html">Die Kontrollschicht</a>. Wie autonome Agenten den Reisevertrieb konkret verändern, zeigt <a href="https://contraco.de/agentic-travel-distribution.html">Der letzte Buchungsbildschirm</a>.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- H2: Häufige Fragen -->
+        <section class="content-section white">
+            <div class="container">
+                <div class="content-block">
+                    <h2 class="section-title">Häufige Fragen</h2>
+
+                    <h3 class="section-title">Ab welcher Stufe wird die Rechtsfrage relevant?</h3>
+                    <p class="section-body">Ab Stufe 3, sobald die Maschine die Auswahl trifft und nicht mehr nur vorbereitet. Solange ein Mensch den letzten Klick setzt, ist die Erklärung unproblematisch seine. Sobald der Agent innerhalb eines vorab gesetzten Rahmens selbst abschließt, verlagert sich der rechtlich entscheidende Moment nach vorn, in die Ersteinrichtung. Ab Stufe 4 ist diese Verlagerung vollständig, weil zwischen Konfiguration und Abschluss keine menschliche Handlung mehr liegt. Unternehmen, die ihre Stufe kennen, wissen damit auch, ob sie eine Dokumentationspflicht haben oder noch nicht.</p>
+
+                    <h3 class="section-title">Reicht Compliance mit der KI-Verordnung aus?</h3>
+                    <p class="section-body">Nein. Die KI-Verordnung regelt, unter welchen Auflagen ein System betrieben werden darf. Sie beantwortet nicht, wem die Erklärung zugerechnet wird, die dieses System abgibt. Das sind zwei verschiedene Fragen mit zwei verschiedenen Adressaten: die eine gegenüber der Aufsicht, die andere gegenüber dem Vertragspartner im Streitfall. Ein Unternehmen kann die Anforderungen an Transparenz, Protokollierung und menschliche Aufsicht vollständig erfüllen und trotzdem nicht belegen können, welcher Willenskorridor einer konkreten Bestellung zugrunde lag. Die aufsichtsrechtliche und die zivilrechtliche Seite müssen getrennt geplant werden.</p>
+
+                    <h3 class="section-title">Was ist eine autonome Computererklärung?</h3>
+                    <p class="section-body">Eine Erklärung, die ein System abgibt und die dem Nutzer über dessen vorherige Konfiguration zugerechnet wird. Sie ist kein Sonderfall der Stellvertretung, sondern eine <a href="https://contraco.de/ki-agent-vertragsschluss.html">gestreckte Willenserklärung</a>: Sie beginnt bei der Ersteinrichtung, in der Grenzen, Präferenzen und Bedingungen gesetzt werden, und vollendet sich, wenn der Agent innerhalb dieses Korridors handelt. Der praktische Gewinn dieser Einordnung ist, dass sie eine klare Anforderung erzeugt. Nicht ein Rechtstext ist zu entwerfen, sondern eine Konfigurationsoberfläche, deren Inhalt und Version zu jedem Zeitpunkt nachweisbar ist.</p>
+
                 </div>
             </div>
         </section>

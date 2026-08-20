@@ -180,8 +180,50 @@
         "name": "Der letzte Buchungsbildschirm: Wie KI-Agenten den Reisevertrieb zerlegen | contraco",
         "description": "KI-Agenten besuchen keine Reiseportale. Sie verhandeln Inventar direkt. Was das für OTAs, Airlines, Hotels und alle bedeutet, deren Marge im Interface lebt.",
         "datePublished": "2026-07-09",
-        "dateModified": "2026-07-09",
+        "dateModified": "2026-08-20",
         "isPartOf": { "@id": "https://contraco.de/" }
+    }
+    </script>
+
+    <!-- Schema.org FAQPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Besuchen KI-Agenten künftig noch Reiseportale?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Nein, jedenfalls nicht dort, wo eine Schnittstelle existiert. Ein Agent, der eine Reise sucht, ruft Verfügbarkeit, Preis und Bedingungen direkt über APIs ab und vergleicht sie maschinell. Die Portalseite ist für ihn ein Umweg mit schlechterem Datenzugang. Das trifft nicht das Portal als Marke, sondern das Portal als Ort der Entscheidung. Wer seine Marge daraus zieht, dass ein Mensch auf einer Oberfläche vergleicht und dort bucht, verliert genau diesen Schritt. Wer seine Marge aus Inventar, Einkauf oder Produktqualität zieht, verliert ihn nicht. Die Frage ist deshalb nicht, ob Ihr Portal überlebt, sondern ob Ihr Ertrag am Interface hängt oder am Produkt."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Was genau macht ein Agent mit einer Reiseanfrage?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Er zerlegt sie in prüfbare Bedingungen und gleicht diese gegen strukturierte Daten ab. Aus \"vier Tage Lissabon, nicht zu laut, mit Familie\" werden Termine, Preisgrenzen, Lage, Zimmerkategorie, Stornierbarkeit und Bewertungsprofil. Der Agent bewertet nicht Bilder und Beschreibungstexte, sondern Felder. Anbieter, deren Angaben nur in Fließtext und Bildstrecken existieren, sind für diesen Abgleich unsichtbar, ohne je abgelehnt worden zu sein. Es gibt keine Absage, nur einen sinkenden Anteil an Empfehlungen. Sichtbarkeit im agentischen Vertrieb entscheidet sich daher vor der Anfrage, in der Struktur der eigenen Daten, nicht danach im Ranking."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Wer haftet, wenn ein Agent falsch bucht?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Zugerechnet wird die Buchung dem Kunden, aber nur so weit, wie sie seiner Ersteinrichtung entspricht. Die Willenserklärung entsteht nicht im Moment der Buchung, sondern beginnt bei der Konfiguration, in der der Kunde Budget, Zeitraum und Bedingungen festlegt, und vollendet sich, wenn der Agent innerhalb dieses Rahmens handelt. Handelt er außerhalb, trägt die Zurechnung nicht auf derselben Grundlage. Für Anbieter folgt daraus eine sehr praktische Pflicht: Der Rahmen muss im Streitfall rekonstruierbar sein. Wer nicht belegen kann, welche Konfiguration zum Zeitpunkt der Buchung galt, verliert die Auseinandersetzung nicht aus rechtlichen, sondern aus dokumentarischen Gründen."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Was sollten Reiseanbieter in den nächsten zwölf Monaten tun?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Drei Dinge, in dieser Reihenfolge. Erstens die eigenen Produktdaten maschinenlesbar machen, einschließlich Stornobedingungen, Lage, Ausstattung und Zielgruppeneignung, weil ein Agent nur bewerten kann, was als Feld vorliegt. Zweitens festlegen und protokollieren, welche Konfiguration einer agentischen Buchung zugrunde liegt, weil daran die Zurechnung hängt. Drittens entscheiden, ob das eigene Geschäft am Interface oder am Produkt verdient, weil nur die zweite Position im agentischen Vertrieb verteidigungsfähig ist. Wer mit dem dritten Punkt beginnt, spart sich Fehlinvestitionen in die ersten beiden."
+                }
+            }
+        ]
     }
     </script>
 
@@ -433,8 +475,30 @@
             </div>
         </section>
 
-        <!-- H2: Der unbequeme Zeitplan -->
+        <!-- H2: Häufige Fragen -->
         <section class="content-section white">
+            <div class="container">
+                <div class="content-block">
+                    <h2 class="section-title">Häufige Fragen</h2>
+
+                    <h3 class="section-title">Besuchen KI-Agenten künftig noch Reiseportale?</h3>
+                    <p class="section-body">Nein, jedenfalls nicht dort, wo eine Schnittstelle existiert. Ein Agent, der eine Reise sucht, ruft Verfügbarkeit, Preis und Bedingungen direkt über APIs ab und vergleicht sie maschinell. Die Portalseite ist für ihn ein Umweg mit schlechterem Datenzugang. Das trifft nicht das Portal als Marke, sondern das Portal als Ort der Entscheidung. Wer seine Marge daraus zieht, dass ein Mensch auf einer Oberfläche vergleicht und dort bucht, verliert genau diesen Schritt. Wer seine Marge aus Inventar, Einkauf oder Produktqualität zieht, verliert ihn nicht. Die Frage ist deshalb nicht, ob Ihr Portal überlebt, sondern ob Ihr Ertrag am Interface hängt oder am Produkt.</p>
+
+                    <h3 class="section-title">Was genau macht ein Agent mit einer Reiseanfrage?</h3>
+                    <p class="section-body">Er zerlegt sie in prüfbare Bedingungen und gleicht diese gegen strukturierte Daten ab. Aus "vier Tage Lissabon, nicht zu laut, mit Familie" werden Termine, Preisgrenzen, Lage, Zimmerkategorie, Stornierbarkeit und Bewertungsprofil. Der Agent bewertet nicht Bilder und Beschreibungstexte, sondern Felder. Anbieter, deren Angaben nur in Fließtext und Bildstrecken existieren, sind für diesen Abgleich unsichtbar, ohne je abgelehnt worden zu sein. Es gibt keine Absage, nur einen sinkenden Anteil an Empfehlungen. Sichtbarkeit im agentischen Vertrieb entscheidet sich daher vor der Anfrage, in der Struktur der eigenen Daten, nicht danach im Ranking.</p>
+
+                    <h3 class="section-title">Wer haftet, wenn ein Agent falsch bucht?</h3>
+                    <p class="section-body">Zugerechnet wird die Buchung dem Kunden, aber nur so weit, wie sie seiner <a href="https://contraco.de/ki-agent-vertragsschluss.html">Ersteinrichtung</a> entspricht. Die Willenserklärung entsteht nicht im Moment der Buchung, sondern beginnt bei der Konfiguration, in der der Kunde Budget, Zeitraum und Bedingungen festlegt, und vollendet sich, wenn der Agent innerhalb dieses Rahmens handelt. Handelt er außerhalb, trägt die Zurechnung nicht auf derselben Grundlage. Für Anbieter folgt daraus eine sehr praktische Pflicht: Der Rahmen muss im Streitfall rekonstruierbar sein. Wer nicht belegen kann, welche Konfiguration zum Zeitpunkt der Buchung galt, verliert die Auseinandersetzung nicht aus rechtlichen, sondern aus dokumentarischen Gründen.</p>
+
+                    <h3 class="section-title">Was sollten Reiseanbieter in den nächsten zwölf Monaten tun?</h3>
+                    <p class="section-body">Drei Dinge, in dieser Reihenfolge. Erstens die eigenen Produktdaten maschinenlesbar machen, einschließlich Stornobedingungen, Lage, Ausstattung und Zielgruppeneignung, weil ein Agent nur bewerten kann, was als Feld vorliegt. Zweitens festlegen und protokollieren, welche Konfiguration einer agentischen Buchung zugrunde liegt, weil daran die Zurechnung hängt. Drittens entscheiden, ob das eigene Geschäft am Interface oder am Produkt verdient, weil nur die zweite Position im agentischen Vertrieb verteidigungsfähig ist. Wer mit dem dritten Punkt beginnt, spart sich Fehlinvestitionen in die ersten beiden.</p>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- H2: Der unbequeme Zeitplan -->
+        <section class="content-section gray">
             <div class="container">
                 <div class="content-block">
                     <h2 class="section-title">Der unbequeme Zeitplan</h2>
@@ -444,7 +508,7 @@
         </section>
 
         <!-- Conclusion: Das Argument in Leipzig fortsetzen -->
-        <section class="content-section gray">
+        <section class="content-section white">
             <div class="container">
                 <div class="content-block">
                     <h2 class="section-title">Das Argument in Leipzig fortsetzen</h2>
