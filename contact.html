@@ -106,7 +106,12 @@
     "addressCountry": "US"
   },
   "foundingDate": "1998",
-  "founder": { "@id": "https://meltke.com/#person" },
+  "founder": {
+      "@type": "Person",
+      "@id": "https://meltke.com/#person",
+      "name": "Frank Meltke",
+      "url": "https://meltke.com"
+  },
   "areaServed": "Global",
   "sameAs": [
     "https://www.wikidata.org/wiki/Q139681815",
@@ -628,7 +633,12 @@
     "url": "https://contraco.de/contact.html",
     "name": "contraco kontaktieren | Beginnen Sie Ihre Unternehmenstransformation",
     "dateModified": "2026-08-28",
-    "isPartOf": { "@id": "https://contraco.de/" }
+    "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://contraco.de/#website",
+        "name": "contraco",
+        "url": "https://contraco.de/"
+    }
 }
 </script>
 </head>
