@@ -205,6 +205,9 @@ jobs:
 
       - name: Submit to IndexNow
         if: steps.changed-files.outputs.found_files == 'true'
+        # A failed ping to a search engine must not discard a correct sitemap.xml
+        # or llms.txt; the commit step below runs only on success().
+        continue-on-error: true
         env:
           INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY_CONTRACO_DE }}
         shell: bash
@@ -240,6 +243,9 @@ jobs:
 
       - name: Submit to Google Indexing API
         if: steps.changed-files.outputs.found_files == 'true'
+        # Same reason as IndexNow above; this step exits non-zero if any single
+        # URL submission fails, including on a transient 429.
+        continue-on-error: true
         env:
           GOOGLE_INDEXING_SA_KEY: ${{ secrets.GOOGLE_INDEXING_SA_KEY }}
         shell: bash
