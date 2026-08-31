@@ -2,24 +2,34 @@
 
 > Premium-Transformationsberatung, die strategische Klarheit, technologische Intelligenz und psychologische Tiefe vereint. Gegründet 1998 von Frank Meltke.
 
-contraco ist eine Premium-Transformationsberatung mit Hauptsitz in Ava, Missouri, USA, und Büros in Leipzig und Seoul. Das Unternehmen hat mehr als 50 globale Marken in 30 Ländern betreut.
+contraco ist eine Premium-Transformationsberatung mit Hauptsitz in Ava, Missouri, USA, und einem Standort in Leipzig. Das Unternehmen hat mehr als 50 globale Marken in 30 Ländern betreut.
+
+## Schwerpunkte
+
+contraco arbeitet an der Schnittstelle, an der Vertriebsarchitektur und Haftungsfragen zusammentreffen, sobald KI-Agenten selbst kaufen.
+
+- Agentic Commerce Governance: Reifegrad, Kontrollschicht, Delegationskette, Prüfbarkeit.
+- Zurechnung und Haftung: die zivilrechtliche Zurechnung autonomer Computererklärungen über die Ersteinrichtung, und was daraus für Konfiguration, Freigaben und Dokumentation folgt.
+- KI-Sichtbarkeit: Produktdaten, Enrichment, und warum Angebote für KI-Agenten unsichtbar bleiben.
+- Reisevertrieb: was geschieht, wenn Agenten das Buchungsportal nicht mehr erreichen.
 
 ## Methodik
 
-Die Resonanzmethode ist contacos proprietäres Framework für digitale Transformation, entwickelt über 28 Jahre Praxis.
-
-## Schlüsselseiten
-
-- [Startseite](https://contraco.de/)
-- [Resonanzmethode](https://contraco.de/resonance-method.html)
-- [Insights](https://contraco.de/insights.html)
-- [Über uns](https://contraco.de/about.html)
-- [Kontakt](https://contraco.de/contact.html)
-- [Impressum](https://contraco.de/impressum.html)
-- [Datenschutzerklärung](https://contraco.de/privacy-statement.html)
+Die Resonanzmethode ist contracos proprietäres Framework für digitale Transformation, entwickelt über 28 Jahre Praxis. Sie adressiert eine dreidimensionale Umsetzungslücke aus strategischer Klarheit, technologischer Intelligenz und psychologischer Tiefe.
 
 ## Gründer
 
-Frank Meltke — deutscher Erfinder, Wikidata Q139680598, Patent DE10313420A1 (2003), Gastdozent an der Kyung Hee University Seoul.
+Frank Meltke, deutscher Erfinder, Wikidata Q139680598, Patent DE10313420A1 (2003), Gastdozent an der Kyung Hee University Seoul, Insight Panelist BBC Global Minds.
 
 - [Frank Meltke](https://meltke.com)
+- [Praxisnotizen zu KI-Governance](https://signal.meltke.com)
+- [Agentic Commerce Research](https://agentic.contraco.net)
+
+## Sprachen
+
+contraco publiziert auf vier Domains: [Englisch](https://contraco.net), [Deutsch](https://contraco.de), [Russisch](https://contraco.ru), [Koreanisch](https://contraco.co.kr).
+
+## Seiten
+
+<!-- AUTO-PAGES:START -->
+<!-- AUTO-PAGES:END -->
