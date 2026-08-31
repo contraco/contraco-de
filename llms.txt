@@ -62,7 +62,7 @@ contraco publiziert auf vier Domains: [Englisch](https://contraco.net), [Deutsch
 - [KI-Organisationsdesign](https://contraco.de/organizational-design-ai.html)
 - [Die Psychologie der Preisgestaltung | Verhaltensökonomie für Umsatzwachstum](https://contraco.de/pricing-psychology.html)
 - [Datenschutzerklärung](https://contraco.de/privacy-statement.html)
-- [Publikationen &amp; Presse](https://contraco.de/publikationen.html)
+- [Publikationen & Presse](https://contraco.de/publikationen.html)
 - [Die Resonanzmethode™ | Organisationsveränderung von contraco](https://contraco.de/resonance-method.html)
 - [Strategische Intelligenz für KI-Transformation](https://contraco.de/strategic-intelligence.html)
 - [Lieferantenauswahl meistern: Strategische Partnerwahl](https://contraco.de/vendor-selection-mastery.html)
