@@ -27,6 +27,8 @@
     <link rel="alternate" href="https://contraco.de/ai-agents-travel-booking.html" hreflang="de" />
 
     <!-- Fonts -->
+    <link rel="preload" href="/fonts/lato-v24-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/lato-v24-latin-700.woff2" as="font" type="font/woff2" crossorigin>
     <style>
 @font-face { font-family: 'Crimson Text'; font-style: normal; font-weight: 400; src: url('/fonts/crimson-text-v21-latin-regular.woff2') format('woff2'); font-display: swap; }
 @font-face { font-family: 'Crimson Text'; font-style: normal; font-weight: 600; src: url('/fonts/crimson-text-v21-latin-600.woff2') format('woff2'); font-display: swap; }
@@ -120,27 +122,6 @@
 }
 </script>
 
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Event",
-        "name": "Die Buchung, die Sie nie gesehen haben: Wenn KI-Agenten das Reiseportal ersetzen",
-        "description": "Frank Meltke spricht auf dem fvw|TravelTalk Kongress in Leipzig darueber, wie KI-Agenten Reisen recherchieren, vergleichen und buchen, ohne dass die Homepage eines Veranstalters je den Kunden erreicht.",
-        "startDate": "2026-09-16T11:25:00+02:00",
-        "endDate": "2026-09-16T11:45:00+02:00",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-        "image": "https://dfvcg-events.de/fvw-travel-talk-kongress/wp-content/uploads/sites/59/2026/06/Meltke-Frank-Contraco-web.png",
-        "location": {
-            "@type": "Place",
-            "name": "fvw|TravelTalk Kongress, Pentahotel Leipzig",
-            "address": { "@type": "PostalAddress", "streetAddress": "Großer Brockhaus 3", "postalCode": "04103", "addressLocality": "Leipzig", "addressCountry": "DE" }
-        },
-        "performer": { "@id": "https://meltke.com/#person", "@type": "Person", "name": "Frank Meltke" },
-        "organizer": { "@type": "Organization", "name": "dfv Conference Group", "url": "https://dfvcg-events.de/" },
-        "offers": { "@type": "Offer", "price": "799", "priceCurrency": "EUR", "availability": "https://schema.org/InStock", "validFrom": "2026-01-01", "url": "https://dfvcg-events.de/fvw-travel-talk-kongress/ticketshop/" }
-    }
-    </script>
 
     <script type="application/ld+json">
     {
@@ -156,11 +137,17 @@
 
     <script type="application/ld+json">
     {
+    "mentions": {
+      "@type": "Event",
+      "@id": "https://contraco.de/publikationen.html#event-fvw-2026",
+      "name": "Die Buchung, die Sie nie gesehen haben: Wenn KI-Agenten das Reiseportal ersetzen",
+      "url": "https://contraco.de/publikationen.html"
+    },
         "@context": "https://schema.org",
         "@type": "WebPage",
         "url": "https://contraco.de/ai-agents-travel-booking.html",
         "name": "Wenn KI-Agenten das Reiseportal ersetzen",
-        "dateModified": "2026-08-30",
+        "dateModified": "2026-09-01",
         "isPartOf": {
             "@type": "WebSite",
             "@id": "https://contraco.de/#website",
@@ -296,7 +283,7 @@
     <nav class="navbar">
         <div class="nav-container">
             <a href="https://contraco.de/" class="logo" id="site-logo">
-                <img src="https://contraco.de/Logo_rectangle.svg" alt="contraco" onerror="this.parentElement.classList.add('logo-failed');">
+                <img src="https://contraco.de/Logo_rectangle.svg" alt="contraco" onerror="this.parentElement.classList.add('logo-failed');" width="241" height="108">
                 <span class="logo-fallback">contraco</span>
             </a>
             <div style="display: flex; align-items: center;">
@@ -416,7 +403,7 @@
                     <p class="section-body">Nein, und diese Frage führt in die falsche Richtung. Ein Softwareagent ist kein Stellvertreter im Sinne des § 164 BGB, weil ihm die persönliche Fähigkeit fehlt, die § 165 BGB voraussetzt. Die Zurechnung läuft nicht über eine erteilte Vertretungsmacht, sondern über die vorab gesetzte Konfiguration des Nutzers. Wer stattdessen Vollmachtstexte entwirft, baut eine Konstruktion, die im ersten Streitfall bricht. Die belastbare Aufgabe ist eine andere: den <a href="https://contraco.de/ki-agent-vertragsschluss.html">Willenskorridor</a> sauber erfassen, versionieren und protokollieren. Das ist keine juristische Formalie, sondern eine Anforderung an die Produktoberfläche, an der die Verpflichtung tatsächlich entsteht.</p>
 
                     <h3 class="section-title">Was kostet es, jetzt nichts zu tun?</h3>
-                    <p class="section-body">Zunächst nichts, und das ist die Schwierigkeit. Der Verlust tritt nicht als Umsatzeinbruch auf, sondern als sinkender Anteil an agentischen Empfehlungen, den keine Kanalauswertung ausweist. Es gibt keine Absagemitteilung, nur weniger Aufträge, die an andere gehen. Sichtbar wird das erst, wenn der Rückstand strukturell ist, weil Wettbewerber ihre Daten und ihren Kontext bereits aufgebaut haben und dieser Vorsprung sich in Empfehlungen niederschlägt. Die Kosten des Wartens sind deshalb nicht die Kosten des Umbaus in zwei Jahren, sondern die Kosten des Umbaus in zwei Jahren zuzüglich der bis dahin verlorenen Position.</p>
+                    <p class="section-body">Zunächst nichts, und das ist die Schwierigkeit. Der Verlust tritt nicht als Umsatzeinbruch auf, sondern als sinkender Anteil an agentischen Empfehlungen, den keine Kanalauswertung ausweist. Es gibt keine Absagemitteilung, nur weniger Aufträge, die an andere gehen. Sichtbar wird das erst, wenn der Rückstand strukturell ist, weil Wettbewerber ihre Daten und ihren Kontext bereits aufgebaut haben und dieser Vorsprung sich in Empfehlungen niederschlägt. Die Kosten des Wartens sind deshalb nicht die Kosten des Umbaus in zwei Jahren, sondern die Kosten des Umbaus in zwei Jahren zuzüglich der bis dahin verlorenen Position. Wo ein Reiseanbieter dabei ansetzt, steht unter <a href="https://contraco.de/agentic-commerce-beratung.html">Agentic Commerce Beratung</a>, die Haftungsseite unter <a href="https://contraco.de/agentic-commerce-governance.html">Agentic Commerce Governance</a>.</p>
 
                 </div>
             </div>
