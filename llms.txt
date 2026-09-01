@@ -37,6 +37,7 @@ contraco publiziert auf vier Domains: [Englisch](https://contraco.net), [Deutsch
 - [Die Kontrollschicht im Agentic Commerce](https://contraco.de/agentic-commerce-control-layer.html)
 - [Delegationskette: KI-Agent, PSD2 und Mandat](https://contraco.de/agentic-commerce-delegation-chain.html)
 - [Agentic Commerce und die EU-KI-Verordnung](https://contraco.de/agentic-commerce-eu-ki-verordnung.html)
+- [Agentic Commerce Glossar: Definitionen](https://contraco.de/agentic-commerce-glossar.html)
 - [Agentic Commerce Governance](https://contraco.de/agentic-commerce-governance.html)
 - [Der laute Sommer 2026. Eine Chronik](https://contraco.de/agentic-commerce-summer-2026.html)
 - [Agentic Commerce: das Zwölf-Monats-Fenster](https://contraco.de/agentic-commerce-window.html)
