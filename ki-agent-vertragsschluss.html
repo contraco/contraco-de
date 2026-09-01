@@ -180,60 +180,76 @@
 
     <!-- Schema.org FAQPage -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Kann ein KI-Agent rechtswirksam einen Vertrag schließen?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja, aber nicht auf eigene Rechnung. Die Erklärung wird dem Nutzer zugerechnet, der den Agenten konfiguriert hat."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Ist der Agent ein Stellvertreter im Sinne des § 164 BGB?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Nein. Die Rechts- und Geschäftsfähigkeit, die § 165 BGB voraussetzt, steht Software nicht zu."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Wem wird die Erklärung des Agenten zugerechnet?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Dem Nutzer, über die Ersteinrichtung und den dort definierten Willenskorridor."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Wann entsteht die Willenserklärung?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Nicht im Moment der Transaktion. Sie beginnt mit der Konfiguration und vollendet sich bei der Ausführung: eine gestreckte Willenserklärung."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Was gilt, wenn der Agent außerhalb der Konfiguration handelt?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Die Zurechnung trägt auf derselben Grundlage nicht mehr, weshalb der Korridor im Nachhinein rekonstruierbar sein muss."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Was müssen Händler und Plattformen jetzt tun?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Den Korridor erfassen, versionieren und protokollieren und die Konfigurationsoberfläche als den Ort behandeln, an dem die Verpflichtung entsteht."
-                }
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "Kann ein KI-Agent rechtswirksam einen Vertrag schließen?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja, aber nicht auf eigene Rechnung. Die Erklärung wird dem Nutzer zugerechnet, der den Agenten konfiguriert hat."
             }
-        ]
-    }
+        },
+        {
+            "@type": "Question",
+            "name": "Ist der Agent ein Stellvertreter im Sinne des § 164 BGB?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nein. Die Rechts- und Geschäftsfähigkeit, die § 165 BGB voraussetzt, steht Software nicht zu."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Wem wird die Erklärung des Agenten zugerechnet?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Dem Nutzer, über die Ersteinrichtung und den dort definierten Willenskorridor."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Wann entsteht die Willenserklärung?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Nicht im Moment der Transaktion. Sie beginnt mit der Konfiguration und vollendet sich bei der Ausführung: eine gestreckte Willenserklärung."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Was gilt, wenn der Agent außerhalb der Konfiguration handelt?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Die Zurechnung trägt auf derselben Grundlage nicht mehr, weshalb der Korridor im Nachhinein rekonstruierbar sein muss."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Was müssen Händler und Plattformen jetzt tun?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Den Korridor erfassen, versionieren und protokollieren und die Konfigurationsoberfläche als den Ort behandeln, an dem die Verpflichtung entsteht."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Gibt es schon deutsche Rechtsprechung zu Aussagen von KI-Systemen?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ja. Das Oberlandesgericht Hamm hat am 12. Mai 2026 entschieden, dass die Aussagen eines KI-Chatbots dem Unternehmen zugerechnet werden, das ihn einsetzt (Az. I-4 UKl 3/25). Es ist die erste veröffentlichte deutsche Entscheidung zu dieser Frage. Sie betrifft eine irreführende Angabe im Wettbewerbsrecht, nicht den Vertragsschluss, und die Revision zum Bundesgerichtshof ist zugelassen."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Haften wir auch, wenn wir das System nur mit korrekten Daten befüllt haben?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Für den Fall der irreführenden Angabe sagt das Oberlandesgericht Hamm: ja. Die Pflicht knüpft nicht an die eingespeisten Daten an, sondern daran, dass Sie das System einsetzen, konfigurieren und ändern können. Ein System, das aus zutreffenden Daten eine unzutreffende Aussage bilden kann, bleibt deshalb Ihr System."
+            }
+        }
+    ]
+}
     </script>
 
     <style>
@@ -744,6 +760,27 @@
             </div>
         </section>
 
+
+        <!-- Quelle: OLG Hamm, Urteil vom 12.05.2026, Az. I-4 UKl 3/25, Verbraucherzentrale NRW ./. Aesthetify GmbH, § 5 Abs. 1, Abs. 2 Nr. 3 UWG, Revision zum BGH zugelassen -->
+        <section class="content-section white">
+            <div class="container">
+                <div class="content-block">
+                    <h2 class="section-title">Ein Gericht hat die Zurechnungsfrage bereits entschieden, in einem anderen Zusammenhang</h2>
+                    <p class="section-body">Am 12. Mai 2026 hat der 4. Zivilsenat des Oberlandesgerichts Hamm über einen Fall entschieden, der die Zurechnungsfrage zum ersten Mal in einem veröffentlichten deutschen Urteil berührt (Az. I-4 UKl 3/25). Geklagt hatte die Verbraucherzentrale Nordrhein-Westfalen gegen die Aesthetify GmbH. Auf der Unternehmenswebsite beantwortete ein KI-Chatbot Fragen und vereinbarte Termine. Auf Nachfrage bezeichnete er die beiden Geschäftsführer als Fachärzte für plastische und ästhetische Chirurgie, eine Bezeichnung, die sie nicht führen durften.</p>
+                    <p class="section-body">Das Gericht sah darin eine irreführende geschäftliche Handlung nach § 5 Abs. 1, Abs. 2 Nr. 3 UWG. Entscheidend ist die Begründung. Der Chatbot ist nach Auffassung des Senats kein Dritter, dessen Verhalten sich das Unternehmen vom Leib halten kann, sondern Teil seiner eigenen geschäftlichen Organisation. Seine Aussagen werden dem Betreiber zugerechnet. Und der unbequemere Teil: Das gilt auch dann, wenn das System ausschließlich mit zutreffenden Daten bespielt wurde. Der Fehler liegt nicht in den Daten, sondern darin, ein System einzusetzen, das aus zutreffenden Daten unzutreffende Aussagen bilden kann.</p>
+
+                    <h3 class="faq-question">Was das Urteil nicht sagt</h3>
+                    <p class="section-body">Es ist eine wettbewerbsrechtliche Entscheidung über eine irreführende Angabe. Sie sagt nichts darüber, ob ein KI-Agent eine bindende Willenserklärung abgeben kann, und sie entscheidet die Frage des Vertragsschlusses nicht. Wer das Urteil als Antwort auf die Vertragsschlussfrage präsentiert, liest es zu weit. Diese Unterscheidung ist keine Spitzfindigkeit: Haftung für eine Äußerung und Bindung an eine Erklärung sind zwei verschiedene Rechtsfolgen mit zwei verschiedenen Voraussetzungen.</p>
+                    <p class="section-body">Praktisch heißt das: Aus diesem Urteil folgt keine Aussage darüber, ob eine von einem Agenten ausgelöste Bestellung wirksam zustande kommt, und auch keine darüber, in welchem Rahmen sie das täte. Der Fall betraf eine Auskunft im Vorfeld, nicht eine Erklärung im Vollzug. Ein Unternehmen, das seine Agentenstrategie auf diese Entscheidung stützt, stützt sie auf eine Frage, die dort nicht gestellt wurde.</p>
+
+                    <h3 class="faq-question">Warum es trotzdem die richtige Richtung zeigt</h3>
+                    <p class="section-body">Das Prinzip, das der Senat angewandt hat, ist dasselbe, das auf dieser Seite entwickelt wird. Die Verantwortung folgt nicht aus der Autonomie der Technik, sondern daraus, dass ein Unternehmen das System bewusst einsetzt, konfiguriert und jederzeit ändern kann. Wer diese drei Möglichkeiten hat, trägt das Ergebnis. Genau diese Kette, Einsatz, Konfiguration, Änderbarkeit, trägt die Zurechnung über die Ersteinrichtung und den Willenskorridor bis in die Transaktion hinein. Dass sie dort ebenso trägt, ist unsere Argumentation und nicht die Feststellung des Gerichts. Der Senat hatte über den Vollzug nicht zu befinden, und er hat es auch nicht getan. Was daraus für Konfiguration, Freigaben und Dokumentation folgt, behandeln wir unter <a href="https://contraco.de/agentic-commerce-governance.html">Agentic Commerce Governance</a>.</p>
+                    <p class="section-body">Für die Praxis ist die Richtung dennoch aufschlussreich, und zwar an einer bestimmten Stelle. Wenn schon die Auskunft eines Systems dem Betreiber zugerechnet wird, obwohl niemand sie im Einzelfall formuliert hat, dann ist der Einwand, eine Transaktion sei ja nicht persönlich veranlasst worden, in dieser Form kaum zu halten. Die Verteidigung verschiebt sich damit weg von der Frage, wer im Moment der Ausführung gehandelt hat, hin zu der Frage, was vorher festgelegt war. Genau dort muss ein Unternehmen belegfähig sein.</p>
+                    <p class="section-body">Die Revision zum Bundesgerichtshof ist zugelassen, das Urteil ist nicht rechtskräftig. Wer die Entscheidung als geklärte Rechtslage behandelt, macht deshalb den umgekehrten Fehler zu dem, der sie ignoriert.</p>
+                </div>
+            </div>
+        </section>
+
         <!-- Section 7: Häufige Fragen -->
         <section class="content-section white">
             <div class="container">
@@ -778,6 +815,16 @@
                     <div class="faq-item">
                         <h3 class="faq-question">Was müssen Händler und Plattformen jetzt tun?</h3>
                         <p class="faq-answer">Den Korridor strukturiert erfassen, versionieren und protokollieren. Die Konfigurationsoberfläche ist der Ort, an dem die Verpflichtung entsteht. Wer das nicht als rechtliche Anforderung behandelt, trägt im Streitfall das Risiko.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3 class="faq-question">Gibt es schon deutsche Rechtsprechung zu Aussagen von KI-Systemen?</h3>
+                        <p class="faq-answer">Ja. Das Oberlandesgericht Hamm hat am 12. Mai 2026 entschieden, dass die Aussagen eines KI-Chatbots dem Unternehmen zugerechnet werden, das ihn einsetzt (Az. I-4 UKl 3/25). Es ist die erste veröffentlichte deutsche Entscheidung zu dieser Frage. Sie betrifft eine irreführende Angabe im Wettbewerbsrecht, nicht den Vertragsschluss, und die Revision zum Bundesgerichtshof ist zugelassen.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3 class="faq-question">Haften wir auch, wenn wir das System nur mit korrekten Daten befüllt haben?</h3>
+                        <p class="faq-answer">Für den Fall der irreführenden Angabe sagt das Oberlandesgericht Hamm: ja. Die Pflicht knüpft nicht an die eingespeisten Daten an, sondern daran, dass Sie das System einsetzen, konfigurieren und ändern können. Ein System, das aus zutreffenden Daten eine unzutreffende Aussage bilden kann, bleibt deshalb Ihr System.</p>
                     </div>
                 </div>
             </div>

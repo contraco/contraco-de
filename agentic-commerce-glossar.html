@@ -14,10 +14,10 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agentic Commerce Governance | contraco</title>
+    <title>Agentic Commerce Glossar: Definitionen | contraco</title>
 
     <!-- Canonical Tag -->
-    <link rel="canonical" href="https://contraco.de/agentic-commerce-governance.html">
+    <link rel="canonical" href="https://contraco.de/agentic-commerce-glossar.html">
     <link rel="entity-manifest" href="https://contraco.de/.well-known/entity-manifest.json">
     <link rel="jwks" href="https://contraco.de/.well-known/jwks.json">
 
@@ -26,7 +26,7 @@
 
     <!-- International SEO hreflang -->
     <link rel="alternate" href="https://contraco.com/" hreflang="x-default" />
-    <link rel="alternate" href="https://contraco.de/agentic-commerce-governance.html" hreflang="de" />
+    <link rel="alternate" href="https://contraco.de/agentic-commerce-glossar.html" hreflang="de" />
 
     <!-- Fonts -->
     <link rel="preload" href="/fonts/lato-v24-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
@@ -65,15 +65,15 @@
     <meta name="theme-color" content="#C00000">
 
     <!-- SEO Meta -->
-    <meta name="description" content="Wenn ein KI-Agent verbindlich bestellt, entscheidet die Ersteinrichtung über die Zurechnung. Kontrollschicht, Delegationskette und Prüfbarkeit.">
-    <meta name="keywords" content="Agentic Commerce Governance, KI-Agent Zurechnung, KI-Agent Haftung, autonome Computererklärung, Delegationskette, contraco">
+    <meta name="description" content="Die Begriffe des agentischen Handels, definiert: Kontrollschicht, Delegationskette, Willenskorridor, Enrichment-Lücke, Dark Agentic Traffic und die Protokolle.">
+    <meta name="keywords" content="Agentic Commerce Glossar, Kontrollschicht, Delegationskette, Willenskorridor, Enrichment-Lücke, Dark Agentic Traffic, MCP, UCP, contraco">
     <meta name="author" content="contraco">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://contraco.de/agentic-commerce-governance.html">
-    <meta property="og:title" content="Agentic Commerce Governance | contraco">
-    <meta property="og:description" content="Wenn ein KI-Agent verbindlich bestellt, entscheidet die Ersteinrichtung über die Zurechnung. Kontrollschicht, Delegationskette und Prüfbarkeit.">
+    <meta property="og:url" content="https://contraco.de/agentic-commerce-glossar.html">
+    <meta property="og:title" content="Agentic Commerce Glossar: Definitionen | contraco">
+    <meta property="og:description" content="Die Begriffe des agentischen Handels, definiert: Kontrollschicht, Delegationskette, Willenskorridor, Enrichment-Lücke, Dark Agentic Traffic und die Protokolle.">
     <meta property="og:logo" content="https://contraco.de/Logo_rectangle.svg">
     <meta property="og:image" content="https://contraco.de/contraco_4K.png">
     <meta property="og:image:width" content="1200">
@@ -82,8 +82,8 @@
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Agentic Commerce Governance | contraco">
-    <meta name="twitter:description" content="Wenn ein KI-Agent verbindlich bestellt, entscheidet die Ersteinrichtung über die Zurechnung. Kontrollschicht, Delegationskette und Prüfbarkeit.">
+    <meta name="twitter:title" content="Agentic Commerce Glossar: Definitionen | contraco">
+    <meta name="twitter:description" content="Die Begriffe des agentischen Handels, definiert: Kontrollschicht, Delegationskette, Willenskorridor, Enrichment-Lücke, Dark Agentic Traffic und die Protokolle.">
     <meta name="twitter:image" content="https://contraco.de/contraco_4K.png">
 
     <!-- Schema.org Organization -->
@@ -103,27 +103,129 @@
 }
 </script>
 
-    <!-- Schema.org Service -->
+    <!-- Schema.org DefinedTermSet -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "Agentic Commerce Governance",
-        "serviceType": "Governance- und Haftungsberatung für agentischen Handel",
-        "provider": {
-            "@type": "Organization",
-            "@id": "https://contraco.net/#organization",
-            "name": "contraco",
-            "url": "https://contraco.net/"
+{
+    "@context": "https://schema.org",
+    "@type": "DefinedTermSet",
+    "@id": "https://contraco.de/agentic-commerce-glossar.html#glossar",
+    "name": "Agentic Commerce Glossar",
+    "inLanguage": "de",
+    "url": "https://contraco.de/agentic-commerce-glossar.html",
+    "publisher": {
+        "@type": "Organization",
+        "@id": "https://contraco.net/#organization",
+        "name": "contraco",
+        "url": "https://contraco.net/"
+    },
+    "hasDefinedTerm": [
+        {
+            "@type": "DefinedTerm",
+            "name": "Kontrollschicht",
+            "description": "Die Schicht oberhalb von Zahlarten, Banken und Systemen, in der Identität, Berechtigung, Policy und Audit zusammengeführt werden. Ein Agent handelt in einer Aufgabenschicht: er empfiehlt, bucht, bezahlt.",
+            "inDefinedTermSet": "https://contraco.de/agentic-commerce-glossar.html#glossar",
+            "url": "https://contraco.de/agentic-commerce-control-layer.html"
         },
-        "areaServed": [
-            { "@type": "Country", "name": "Deutschland" },
-            { "@type": "Country", "name": "Österreich" },
-            { "@type": "Country", "name": "Schweiz" }
-        ],
-        "description": "Zurechnung autonomer Computererklärungen über die Ersteinrichtung, Kontrollschicht, Delegationskette, Prüfbarkeit und die Governance-Pflichten der EU-KI-Verordnung.",
-        "url": "https://contraco.de/agentic-commerce-governance.html"
-    }
+        {
+            "@type": "DefinedTerm",
+            "name": "Delegationskette",
+            "description": "Die Folge von Instanzen zwischen dem Menschen, der einen Auftrag erteilt, und der Transaktion, die ausgeführt wird. Jede Instanz reicht eine Berechtigung weiter, die sie selbst erhalten hat: ein Mensch beauftragt einen Agenten, ein Agent beauftragt einen zweiten, am Ende steht eine Zahlung.",
+            "inDefinedTermSet": "https://contraco.de/agentic-commerce-glossar.html#glossar",
+            "url": "https://contraco.de/agentic-commerce-delegation-chain.html"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Willenskorridor",
+            "description": "Der Rahmen, den ein Nutzer bei der Konfiguration eines Agenten aufspannt: welche Aufträge der Agent annehmen darf, in welchen Grenzen, mit welchem Betragsrahmen und gegenüber welchen Gegenparteien. Was innerhalb dieses Korridors geschieht, ist die Erklärung des Nutzers, auch wenn er sie im Einzelfall nicht gefasst hat.",
+            "inDefinedTermSet": "https://contraco.de/agentic-commerce-glossar.html#glossar",
+            "url": "https://contraco.de/ki-agent-vertragsschluss.html"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Ersteinrichtung",
+            "description": "Der Zeitpunkt, an dem ein Nutzer einen Agenten konfiguriert und damit den Willenskorridor festlegt. Über die Ersteinrichtung wird die Erklärung des Agenten dem Betreiber zugerechnet.",
+            "inDefinedTermSet": "https://contraco.de/agentic-commerce-glossar.html#glossar",
+            "url": "https://contraco.de/agentic-commerce-governance.html"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Enrichment-Lücke",
+            "description": "Der Abstand zwischen Produktdaten, die vollständig aussehen, und Produktdaten, die eine Maschine bewerten kann. Fragt man zehn Anbieter, was Enrichment bedeutet, erhält man Antworten über Attribute, PIM-Pflege und Verschlagwortung.",
+            "inDefinedTermSet": "https://contraco.de/agentic-commerce-glossar.html#glossar",
+            "url": "https://contraco.de/enrichment-luecke.html"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Dark Agentic Traffic",
+            "description": "Der Name für die Lücke zwischen dem, was auf einer Website tatsächlich geschieht, und dem, was das Reporting davon abbildet. KI-getriebene Zugriffe erscheinen überwiegend als Direktverkehr oder als Branded Search und sind als eigener Kanal nicht ausgewiesen.",
+            "inDefinedTermSet": "https://contraco.de/agentic-commerce-glossar.html#glossar",
+            "url": "https://contraco.de/dark-agentic-traffic.html"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Autonome Computererklärung",
+            "description": "Die tragfähige rechtliche Einordnung der Erklärung eines Agenten. Sie entsteht nicht im Moment der Transaktion.",
+            "inDefinedTermSet": "https://contraco.de/agentic-commerce-glossar.html#glossar",
+            "url": "https://contraco.de/ki-agent-vertragsschluss.html"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Autonomiestufen",
+            "description": "Sechs Stufen, die beschreiben, wie autonom in einem Markt gekauft wird, von Kaufprozessen ganz ohne digitale Infrastruktur bis zu Beschaffungsketten ohne menschlichen Eingriffspunkt. Jede Stufe existiert bereits in realen Implementierungen.",
+            "inDefinedTermSet": "https://contraco.de/agentic-commerce-glossar.html#glossar",
+            "url": "https://contraco.de/framework-agentic-commerce.html"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Stellvertretung",
+            "description": "Die naheliegende Einordnung, die gerade nicht anwendbar ist. Stellvertretung nach § 164 BGB setzt eine eigene Willenserklärung des Vertreters im Namen des Vertretenen voraus, und § 165 BGB zeigt, dass dieser Vertreter zumindest beschränkt geschäftsfähig sein muss.",
+            "inDefinedTermSet": "https://contraco.de/agentic-commerce-glossar.html#glossar",
+            "url": "https://contraco.de/agentic-commerce-governance.html"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "Agentic Commerce",
+            "description": "Der Handel, bei dem ein KI-Agent recherchiert, vergleicht und bestellt, ohne dass ein Mensch den letzten Klick setzt. Die Verschiebung betrifft nicht die Oberfläche, sondern die Architektur des Vertriebs: Wer als Anbieter teilnehmen will, muss maschinenlesbar sein, und wer teilnimmt, muss geklärt haben, wem eine agentisch ausgelöste Bestellung zugerechnet wird.",
+            "inDefinedTermSet": "https://contraco.de/agentic-commerce-glossar.html#glossar"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "MCP, Model Context Protocol",
+            "description": "Ein von Anthropic eingeführtes und breit adoptiertes Protokoll für die Verbindung zwischen einem Agenten und den Werkzeugen oder Systemen, die er nutzt. MCP regelt den Zugang, nicht die Befugnis: Es beschreibt, worüber ein Agent etwas erreichen kann, und sagt nichts darüber, wer an das gebunden ist, was er damit tut.",
+            "inDefinedTermSet": "https://contraco.de/agentic-commerce-glossar.html#glossar"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "A2A, Agent2Agent",
+            "description": "Ein von Google eingeführtes Protokoll für die Delegation einer Aufgabe von einem Agenten an einen anderen. Es beschreibt den Übergabepunkt in einer Kette, an dem eine Berechtigung weitergereicht wird, und ist damit die technische Entsprechung eines Glieds der Delegationskette.",
+            "inDefinedTermSet": "https://contraco.de/agentic-commerce-glossar.html#glossar"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "ACP, Agentic Commerce Protocol",
+            "description": "Ein von OpenAI und Stripe unter Apache 2.0 veröffentlichtes Protokoll für Produktdaten, Checkout-Sitzung und delegierte Zahlung. Es trug OpenAIs Instant Checkout, das 2026 eingestellt und in Richtung Discovery neu ausgerichtet wurde.",
+            "inDefinedTermSet": "https://contraco.de/agentic-commerce-glossar.html#glossar"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "UCP, Universal Commerce Protocol",
+            "description": "Ein von Google gemeinsam mit Shopify entwickelter offener Standard über die gesamte Einkaufsstrecke, vorgestellt im Januar 2026 und kompatibel mit A2A, AP2 und MCP. Bemerkenswert für die Zurechnungsfrage: Jede Autorisierung ist mit einem kryptografischen Nachweis der Zustimmung des Nutzers hinterlegt.",
+            "inDefinedTermSet": "https://contraco.de/agentic-commerce-glossar.html#glossar"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "AP2, Agent Payments Protocol",
+            "description": "Ein von Google eingeführtes Protokoll für die Zahlungsseite agentischer Transaktionen. Es ergänzt die Aufgaben- und Datenprotokolle um den Teil, an dem Geld fließt, und ist mit dem Universal Commerce Protocol kompatibel.",
+            "inDefinedTermSet": "https://contraco.de/agentic-commerce-glossar.html#glossar"
+        },
+        {
+            "@type": "DefinedTerm",
+            "name": "GEO, Generative Engine Optimization",
+            "description": "Der Begriff, den der Markt für die Sichtbarkeit innerhalb von KI-Systemen gefunden hat. Er ist nützlich, weil er die Frage von der Suchmaschine löst, und irreführend, wenn er als Textdisziplin verstanden wird.",
+            "inDefinedTermSet": "https://contraco.de/agentic-commerce-glossar.html#glossar"
+        }
+    ]
+}
     </script>
 
     <!-- Schema.org BreadcrumbList -->
@@ -155,89 +257,16 @@
     </script>
 
 
-    <!-- Schema.org FAQPage -->
-    <script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "Kann ein KI-Agent für unser Unternehmen einen Vertrag schließen?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ja, im Ergebnis. Nicht als Stellvertreter, sondern indem seine Erklärung Ihnen als autonome Computererklärung über die Ersteinrichtung zugerechnet wird. Rechtlich erklären Sie, technisch erklärt der Agent."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Wer im Unternehmen ist dafür verantwortlich?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Konfiguration, Überwachung und Freigabe brauchen je eine benannte Rolle. Bleiben sie unbenannt, fallen sie faktisch an die Geschäftsführung zurück."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Wie verteilt sich die Haftung entlang der Vertragskette?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Jede Partei haftet für ihren eigenen Beitrag: der Anbieter für die fehlerfreie Bereitstellung, der Händler für die Richtigkeit seiner Daten, der Einsetzende für die Erklärung, die ihm zugerechnet wird. Diese Verteilung greift auch dann, wenn sie nirgends vereinbart wurde."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "In welchem Rahmen darf ein Agent binden?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "In dem Rahmen, den Sie bei der Einrichtung gesetzt haben. Betragsgrenzen, Mengengrenzen und zulässige Gegenparteien gehören technisch durchgesetzt und nicht nur in eine Richtlinie geschrieben."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Wo ist eine menschliche Freigabe zwingend?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Immer dort, wo der Vorgang den gesetzten Rahmen verlässt, und regelmäßig bei erstmaligen Gegenparteien, bei atypischen Beträgen und bei Dauerschuldverhältnissen."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Wie dokumentieren wir die Entscheidungen eines Agenten?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "So, dass Auftrag, Rahmen, Entscheidung und Ausführung im Nachhinein einzeln nachvollziehbar sind. Ein Protokoll, das nur das Ergebnis festhält, hilft im Streitfall nicht."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Was verlangt die EU-KI-Verordnung konkret?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Ein Verzeichnis der eingesetzten Systeme, eine Risikoeinstufung, benannte Verantwortlichkeiten und eine belastbare Dokumentation. Die Bestandsaufnahme ist der erste Schritt und meist auch der aufwendigste."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Löst die EUDI-Wallet das Problem?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Sie löst die Identitätsfrage, und das ist erheblich. Sie löst nicht die Mandats- und Haftungsfrage, weil Identität nicht sagt, wozu jemand beauftragt war."
-            }
-        }
-    ]
-}
-    </script>
-
     <!-- Schema.org WebPage -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "WebPage",
         "url": "https://contraco.de/agentic-commerce-governance.html",
-        "name": "Agentic Commerce Governance | contraco",
+        "name": "Agentic Commerce Glossar: Definitionen | contraco",
         "inLanguage": "de",
         "dateModified": "2026-09-01",
+        "datePublished": "2026-09-01",
         "isPartOf": {
             "@type": "WebSite",
             "@id": "https://contraco.de/#website",
@@ -669,7 +698,7 @@
                     </ul>
                     <div class="language-switcher">
                         <a href="https://contraco.com/" class="lang-link">EN</a>
-                        <a href="https://contraco.de/agentic-commerce-governance.html" class="lang-link active">DE</a>
+                        <a href="https://contraco.de/agentic-commerce-glossar.html" class="lang-link active">DE</a>
                         <a href="https://contraco.com/" class="lang-link">RU</a>
                         <a href="https://contraco.com/" class="lang-link">KO</a>
                     </div>
@@ -684,171 +713,170 @@
         <!-- Hero Section -->
         <section class="hero-section">
             <div class="container">
-                <div class="hero-badge">Governance</div>
-                <h1 class="hero-title">Agentic Commerce Governance: Wer haftet, wenn der Agent bestellt?</h1>
-                <p class="hero-subtitle">Sobald ein KI-Agent verbindlich bestellt, entscheidet nicht der Checkout, sondern die Ersteinrichtung. contraco klärt Zurechnung, Kontrollschicht, Delegationskette und Prüfbarkeit, bevor der Streitfall sie klärt.</p>
-                <p class="hero-meta">contraco &nbsp;|&nbsp; August 2026</p>
+                <div class="hero-badge">Glossar</div>
+                <h1 class="hero-title">Agentic Commerce Glossar</h1>
+                <p class="hero-subtitle">Die Begriffe, mit denen wir arbeiten, definiert und mit der Seite verlinkt, auf der sie entwickelt werden. Neun Begriffe stammen aus unserer eigenen Arbeit, die übrigen sind Marktbegriffe, die im agentischen Handel gesetzt sind.</p>
+                <p class="hero-meta">contraco &nbsp;|&nbsp; September 2026</p>
             </div>
         </section>
 
-        <!-- Der Markt teilt sich -->
         <section class="content-section white">
             <div class="container">
                 <div class="content-block">
-                    <h2 class="section-title">Der Markt teilt sich, und die Lücke liegt in der Mitte</h2>
-                    <p class="section-body">Wer heute im deutschsprachigen Raum Rat zu agentischem Handel sucht, findet zwei Lager, die einander nicht berühren. Auf der einen Seite stehen Digitalagenturen, die Architektur, Schnittstellen und Produktdaten beherrschen und zur Frage, wer an die Erklärung eines Agenten gebunden ist, nichts sagen. Auf der anderen Seite stehen Kanzleien, die Zurechnung, Willenserklärung und Haftung sauber durchdringen und zur Frage, was zu bauen ist, nichts sagen können, weil das nicht ihr Mandat ist.</p>
-                    <p class="section-body">Dazwischen liegt die Arbeit. Ein Unternehmen, das agentischen Handel zulässt, muss beides gleichzeitig entscheiden: wie die Vertriebsarchitektur aussieht und wer die Folgen trägt. Diese beiden Entscheidungen hängen voneinander ab, und getrennt getroffen werden sie beide falsch. contraco arbeitet an dieser Schnittstelle.</p>
+                    <p class="section-body">Ein Glossar ist kein Nachschlagewerk für Fremdwörter, sondern eine Festlegung. Wer im agentischen Handel Kontrollschicht sagt und Checkout meint, oder Delegation sagt und Stellvertretung meint, verhandelt später über das, was er hätte definieren sollen. Die folgenden Definitionen sind die, mit denen wir in Mandaten arbeiten. Sie stehen im Volltext auf den jeweils verlinkten Seiten.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Der Agent ist kein Stellvertreter -->
-        <!-- Quellen, nicht im sichtbaren Text zu nennen: BGB § 164 (Wirkung der Erklärung des Vertreters), BGB § 165 (beschränkt geschäftsfähiger Vertreter). -->
         <section class="content-section gray">
             <div class="container">
                 <div class="content-block">
-                    <h2 class="section-title">Der Agent ist kein Stellvertreter</h2>
-                    <p class="section-body">Die naheliegende juristische Einordnung trägt nicht. Stellvertretung nach § 164 BGB setzt eine eigene Willenserklärung des Vertreters im Namen des Vertretenen voraus, und § 165 BGB zeigt, dass dieser Vertreter zumindest beschränkt geschäftsfähig sein muss. Ein Softwareagent ist beides nicht. Er hat keine Rechtspersönlichkeit, er kann nicht selbst wollen, und die Konstruktion bricht, sobald man sie belastet.</p>
-                    <p class="section-body">Die tragfähige Konstruktion ist eine andere. Die Erklärung des Agenten ist eine autonome Computererklärung, und sie wird dem Betreiber über die Ersteinrichtung zugerechnet. Entscheidend ist der Willenskorridor, den Sie im Moment der Konfiguration aufspannen: welche Aufträge der Agent annehmen darf, in welchen Grenzen, mit welchem Betragsrahmen, gegenüber welchen Gegenparteien. Was innerhalb dieses Korridors geschieht, ist Ihre Erklärung, auch wenn Sie sie nicht im Einzelfall gefasst haben. Was außerhalb geschieht, ist der Fall, über den gestritten wird.</p>
-                    <p class="section-body">Daraus folgt eine unbequeme Verschiebung. Der rechtlich entscheidende Moment ist nicht der Vertragsschluss, sondern die Einrichtung Wochen zuvor. Wir haben das ausführlich unter <a href="https://contraco.de/ki-agent-vertragsschluss.html">Kann ein KI-Agent einen Vertrag schließen?</a> entwickelt.</p>
+                    <h2 class="section-title">Kontrollschicht</h2>
+                    <p class="section-body">Die Schicht oberhalb von Zahlarten, Banken und Systemen, in der Identität, Berechtigung, Policy und Audit zusammengeführt werden. Ein Agent handelt in einer Aufgabenschicht: er empfiehlt, bucht, bezahlt. Damit er das darf, braucht es darunter eine Instanz, die entscheidet, welcher Agent überhaupt handeln darf und unter welchen Bedingungen. Wer diese Schicht besetzt, setzt die Regeln. Wer sie nicht besetzt, übernimmt die Regeln eines anderen. Sie liegt nicht im Checkout, denn im Checkout ist jede Entscheidung, die zählt, bereits gefallen.</p>
+                    <p class="section-body"><a href="https://contraco.de/agentic-commerce-control-layer.html">Vollständige Behandlung des Begriffs</a></p>
                 </div>
             </div>
         </section>
 
-        <!-- Die Kontrollschicht -->
         <section class="content-section white">
             <div class="container">
                 <div class="content-block">
-                    <h2 class="section-title">Die Kontrollschicht</h2>
-                    <p class="section-body">Agentic Commerce entscheidet sich nicht an der Zahlart. Es entscheidet sich eine Ebene darüber, in der Schicht, die Identität, Berechtigung, Policy und Audit zusammenführt. Wer diese Schicht besetzt, bestimmt, welche Agenten überhaupt handeln dürfen und unter welchen Bedingungen. Wer sie nicht besetzt, übernimmt die Bedingungen eines anderen. Die Marktlage dazu steht unter <a href="https://contraco.de/agentic-commerce-control-layer.html">Die Kontrollschicht</a>.</p>
-                    <p class="section-body">Für Ihr Unternehmen heißt das konkret: Es braucht eine Stelle, an der die Regeln liegen, und diese Stelle darf nicht der Checkout sein. Im Checkout ist es zu spät für jede Entscheidung, die zählt.</p>
+                    <h2 class="section-title">Delegationskette</h2>
+                    <p class="section-body">Die Folge von Instanzen zwischen dem Menschen, der einen Auftrag erteilt, und der Transaktion, die ausgeführt wird. Jede Instanz reicht eine Berechtigung weiter, die sie selbst erhalten hat: ein Mensch beauftragt einen Agenten, ein Agent beauftragt einen zweiten, am Ende steht eine Zahlung. Solange die Kette nachvollziehbar ist, lässt sich im Streitfall zeigen, worauf eine Erklärung zurückgeht. Bricht sie an einer Stelle, ist die Zurechnung offen. Das europäische Zahlungsrecht verschärft das, weil es Betrag und Zahlungsempfänger im Moment der Autorisierung verlangt.</p>
+                    <p class="section-body"><a href="https://contraco.de/agentic-commerce-delegation-chain.html">Vollständige Behandlung des Begriffs</a></p>
                 </div>
             </div>
         </section>
 
-        <!-- Die Delegationskette -->
-        <!-- Quelle, nicht im sichtbaren Text zu nennen: Richtlinie (EU) 2015/2366 (PSD2), Art. 97 Abs. 2, dynamische Verknüpfung von Betrag und Zahlungsempfänger. -->
         <section class="content-section gray">
             <div class="container">
                 <div class="content-block">
-                    <h2 class="section-title">Die Delegationskette</h2>
-                    <p class="section-body">Zwischen dem Menschen, der einen Auftrag erteilt, und der Transaktion, die ausgeführt wird, liegen inzwischen mehrere Instanzen. Jede davon leitet eine Berechtigung weiter, die sie selbst erhalten hat. Solange diese Kette nachvollziehbar ist, lässt sich im Streitfall zeigen, worauf die Erklärung zurückgeht. Bricht sie an einer Stelle, ist die Zurechnung offen.</p>
-                    <p class="section-body">Das europäische Zahlungsrecht verschärft das. Die dynamische Verknüpfung verlangt, dass Betrag und Zahlungsempfänger im Moment der Autorisierung feststehen. Eine agentische Beauftragung hat im Regelfall zu diesem Zeitpunkt weder das eine noch das andere. Die Einzelheiten stehen unter <a href="https://contraco.de/agentic-commerce-delegation-chain.html">Die Delegationskette</a>.</p>
+                    <h2 class="section-title">Willenskorridor</h2>
+                    <p class="section-body">Der Rahmen, den ein Nutzer bei der Konfiguration eines Agenten aufspannt: welche Aufträge der Agent annehmen darf, in welchen Grenzen, mit welchem Betragsrahmen und gegenüber welchen Gegenparteien. Was innerhalb dieses Korridors geschieht, ist die Erklärung des Nutzers, auch wenn er sie im Einzelfall nicht gefasst hat. Was außerhalb geschieht, ist der Fall, über den gestritten wird. Je präziser der Korridor gefasst und je sauberer er versioniert ist, desto belastbarer ist die Zurechnungsgrundlage.</p>
+                    <p class="section-body"><a href="https://contraco.de/ki-agent-vertragsschluss.html">Vollständige Behandlung des Begriffs</a></p>
                 </div>
             </div>
         </section>
 
-        <!-- Prüfbarkeit -->
         <section class="content-section white">
             <div class="container">
                 <div class="content-block">
-                    <h2 class="section-title">Prüfbarkeit</h2>
-                    <p class="section-body">Die Zahlungsinfrastruktur prüft Transaktionen und Mandate. Den Agenten selbst prüft niemand: nicht seine Identität, nicht die Qualität seiner Entscheidungen, nicht seine Interessenkonflikte. Solange das so bleibt, verlagert sich das Risiko auf denjenigen, der ihn eingesetzt hat, also auf Sie. Die Argumentation steht unter <a href="https://contraco.de/who-audits-the-ai-agent.html">Wer prüft den Agenten?</a>.</p>
-                    <p class="section-body">Prüfbarkeit ist dabei kein Nachweis im Nachhinein, sondern eine Eigenschaft des Systems, die vorher eingebaut wird. Wer erst im Streitfall beginnt, Protokolle zusammenzusuchen, stellt fest, dass die entscheidenden Angaben nie erhoben wurden: mit welchem Auftrag der Agent gestartet ist, welche Alternativen er verworfen hat, und welche Grenze zuletzt gegriffen hat. Diese drei Angaben entscheiden die Zurechnung, und keine davon fällt nebenbei an.</p>
-                    <p class="section-body">Für die Praxis heißt das zweierlei. Die Protokollierung gehört in dieselbe Entscheidung wie die Konfiguration, weil beide denselben Rahmen beschreiben. Und sie gehört einer Rolle, die nicht zugleich für den Umsatz des Kanals verantwortet. Wer beides in einer Hand hält, prüft sich selbst, und das hält keiner Nachfrage stand.</p>
+                    <h2 class="section-title">Ersteinrichtung</h2>
+                    <p class="section-body">Der Zeitpunkt, an dem ein Nutzer einen Agenten konfiguriert und damit den Willenskorridor festlegt. Über die Ersteinrichtung wird die Erklärung des Agenten dem Betreiber zugerechnet. Daraus folgt eine unbequeme Verschiebung: Der rechtlich entscheidende Moment ist nicht der Vertragsschluss, sondern die Einrichtung Wochen zuvor. Wer im Streitfall belegen will, wozu der Agent befugt war, muss diesen Zeitpunkt dokumentiert haben und nicht den Moment der Ausführung.</p>
+                    <p class="section-body"><a href="https://contraco.de/agentic-commerce-governance.html">Vollständige Behandlung des Begriffs</a></p>
                 </div>
             </div>
         </section>
 
-        <!-- Was regulatorisch dazukommt -->
-        <!-- Quelle, nicht im sichtbaren Text zu nennen: Verordnung (EU) 2024/1689 (KI-Verordnung), Art. 9, 17 und 26. -->
         <section class="content-section gray">
             <div class="container">
                 <div class="content-block">
-                    <h2 class="section-title">Was regulatorisch dazukommt</h2>
-                    <p class="section-body">Die EU-KI-Verordnung verlangt Governance-Strukturen, über die die meisten Unternehmen nicht verfügen: ein Verzeichnis der eingesetzten Systeme, eine Risikoeinstufung, benannte Verantwortlichkeiten und eine Dokumentation, die im Nachhinein trägt. Das ist keine Sonderpflicht für agentischen Handel, sondern die allgemeine Pflicht, angewandt auf einen Fall, in dem sie sofort greift. Wir haben das unter <a href="https://contraco.de/agentic-commerce-eu-ki-verordnung.html">Agentic Commerce und die EU-KI-Verordnung</a> eingeordnet.</p>
-                    <p class="section-body">In der Praxis scheitert die Umsetzung selten am Verständnis der Pflicht und fast immer an der Bestandsaufnahme. Die meisten Organisationen wissen nicht, wie viele Systeme mit KI-Anteil bereits im Einsatz sind, weil einzelne Abteilungen sie eigenständig beschafft haben. Ohne dieses Verzeichnis lässt sich weder eine Risikoeinstufung begründen noch eine Verantwortung benennen, und beides wird verlangt.</p>
-                    <p class="section-body">Der zweite wiederkehrende Fehler ist die Aufteilung der Zuständigkeit. Die Verordnung wird der Rechtsabteilung zugewiesen, die eingesetzten Systeme verantwortet die IT, und der Kanal, in dem sie wirken, gehört dem Vertrieb. Drei Ressorts, die einander zuarbeiten müssten, arbeiten stattdessen nebeneinander. Die Pflicht bleibt davon unberührt und ungeteilt beim Unternehmen.</p>
+                    <h2 class="section-title">Enrichment-Lücke</h2>
+                    <p class="section-body">Der Abstand zwischen Produktdaten, die vollständig aussehen, und Produktdaten, die eine Maschine bewerten kann. Fragt man zehn Anbieter, was Enrichment bedeutet, erhält man Antworten über Attribute, PIM-Pflege und Verschlagwortung. Ein Agent braucht etwas anderes: nicht die Angabe, was ein Produkt ist, sondern die Grundlage für die Entscheidung, warum es für einen bestimmten Auftrag das richtige ist. Angebote, deren Bedingungen nur in Prosa existieren, werden nicht abgelehnt, sondern gar nicht erst berücksichtigt.</p>
+                    <p class="section-body"><a href="https://contraco.de/enrichment-luecke.html">Vollständige Behandlung des Begriffs</a></p>
                 </div>
             </div>
         </section>
 
-        <!-- Was daraus operativ folgt -->
         <section class="content-section white">
             <div class="container">
                 <div class="content-block">
-                    <h2 class="section-title">Was daraus operativ folgt</h2>
-                    <p class="section-body">Die juristische Einordnung ist der leichtere Teil. Der schwierigere ist die Übersetzung in Zuständigkeiten, und an dieser Stelle endet die Rechtsberatung und beginnt die Umsetzung. Vier Fragen sind zu beantworten, und zwar schriftlich:</p>
-                    <ul class="section-body">
-                        <li>Wer im Unternehmen verantwortet Konfiguration, Überwachung und Freigabe der eingesetzten Agenten?</li>
-                        <li>Wie verteilt sich die Haftung entlang der Kette aus Technologieanbieter, Plattform, Händler und Kunde?</li>
-                        <li>In welchem Rahmen darf ein Agent rechtsverbindlich erklären, und welche technischen Grenzen setzen diesen Rahmen durch?</li>
-                        <li>Wo ist eine menschliche Freigabe zwingend, und wie werden Entscheidungen so dokumentiert, dass sie zwei Jahre später noch nachvollziehbar sind?</li>
-                    </ul>
-                    <p class="section-body">Wer diese vier Fragen beantwortet hat, hat eine Governance. Wer sie nicht beantwortet hat, hat eine Absichtserklärung.</p>
-                    <p class="section-body">Wo diese Begriffe im Haus unterschiedlich verwendet werden, ist das kein Sprachproblem, sondern eine offene Zuständigkeit. Wir haben sie deshalb im <a href="https://contraco.de/agentic-commerce-glossar.html">Agentic Commerce Glossar</a> festgelegt, jeweils mit der Seite verlinkt, auf der sie entwickelt werden.</p>
+                    <h2 class="section-title">Dark Agentic Traffic</h2>
+                    <p class="section-body">Der Name für die Lücke zwischen dem, was auf einer Website tatsächlich geschieht, und dem, was das Reporting davon abbildet. KI-getriebene Zugriffe erscheinen überwiegend als Direktverkehr oder als Branded Search und sind als eigener Kanal nicht ausgewiesen. Wer Entscheidungen über Kanalbudgets, Inhalte und Konversionsoptimierung auf dieser Grundlage trifft, optimiert systematisch auf unvollständige Signale. Der Befund ist keine Marktlage, sondern eine Attributionslücke.</p>
+                    <p class="section-body"><a href="https://contraco.de/dark-agentic-traffic.html">Vollständige Behandlung des Begriffs</a></p>
                 </div>
             </div>
         </section>
 
-        <!-- Was in einem Mandat entsteht -->
         <section class="content-section gray">
             <div class="container">
                 <div class="content-block">
-                    <h2 class="section-title">Was in einem Mandat entsteht</h2>
-                    <p class="section-body">Ein Verantwortungsmodell, das die vier Fragen beantwortet und die Antworten an Rollen bindet statt an Personen. Ein Willenskorridor je Anwendungsfall, technisch durchgesetzt und nicht nur beschrieben. Eine Dokumentationsstrecke, die den Anforderungen der KI-Verordnung genügt und im Streitfall verwendbar ist. Und eine Einordnung, welche der bestehenden Vertriebskanäle überhaupt agentisch geöffnet werden sollten, denn nicht jeder sollte es.</p>
-                    <p class="section-body">Was ausdrücklich nicht entsteht, ist ein Gutachten. Eine Einschätzung, die niemand umsetzen kann, verändert die Lage nicht. Die vier Fragen oben sind deshalb so gestellt, dass ihre Antworten unmittelbar in Konfiguration, Rollenbeschreibung und Protokollierung übersetzt werden können.</p>
-                    <p class="section-body">Der Umfang richtet sich danach, wie viele Kanäle betroffen sind und wie weit die Automatisierung bereits reicht. In der Regel steht das Verantwortungsmodell nach wenigen Wochen, während die technische Durchsetzung des Willenskorridors so lange dauert wie die Systeme, in denen sie greifen muss. Wir sagen Ihnen zu Beginn, welcher der beiden Teile bei Ihnen der längere ist, und beginnen mit dem, der den anderen blockiert.</p>
+                    <h2 class="section-title">Autonome Computererklärung</h2>
+                    <p class="section-body">Die tragfähige rechtliche Einordnung der Erklärung eines Agenten. Sie entsteht nicht im Moment der Transaktion. Sie beginnt mit der Ersteinrichtung, in der der Nutzer Grenzen, Präferenzen, Budget und Bedingungen festlegt, und sie vollendet sich, wenn der Agent innerhalb dieses Rahmens ausführt. Rechtlich erklärt damit der Nutzer, technisch erklärt der Agent. Der Begriff ersetzt die Stellvertretung, die für Software nicht trägt.</p>
+                    <p class="section-body"><a href="https://contraco.de/ki-agent-vertragsschluss.html">Vollständige Behandlung des Begriffs</a></p>
                 </div>
             </div>
         </section>
 
-        <!-- Der Weg dorthin -->
         <section class="content-section white">
             <div class="container">
                 <div class="content-block">
-                    <h2 class="section-title">Der Weg dorthin</h2>
-                    <p class="section-body">Wenn Ihr Ausgangspunkt die Architektur ist und nicht die Haftung, beginnt der Weg eine Stufe früher, bei Reifegrad, Produktdaten und Sichtbarkeit. Das ist unsere <a href="https://contraco.de/agentic-commerce-beratung.html">Agentic Commerce Beratung für DACH</a>. Beide Wege treffen sich, meistens früher, als den Beteiligten lieb ist.</p>
-                    <p class="section-body">Von contraco.</p>
+                    <h2 class="section-title">Autonomiestufen</h2>
+                    <p class="section-body">Sechs Stufen, die beschreiben, wie autonom in einem Markt gekauft wird, von Kaufprozessen ganz ohne digitale Infrastruktur bis zu Beschaffungsketten ohne menschlichen Eingriffspunkt. Jede Stufe existiert bereits in realen Implementierungen. Die Stufe bemisst sich daran, wie viel der Agent entscheiden darf, nicht daran, was er technisch erreichen kann. Der schwierigste Übergang ist nicht der zur höchsten Stufe, sondern der Moment, in dem der Mensch den Abschluss nicht mehr selbst vollzieht.</p>
+                    <p class="section-body"><a href="https://contraco.de/framework-agentic-commerce.html">Vollständige Behandlung des Begriffs</a></p>
                 </div>
             </div>
         </section>
 
-        <!-- Häufige Fragen -->
         <section class="content-section gray">
             <div class="container">
                 <div class="content-block">
-                    <h2 class="section-title">Häufige Fragen</h2>
+                    <h2 class="section-title">Stellvertretung</h2>
+                    <p class="section-body">Die naheliegende Einordnung, die gerade nicht anwendbar ist. Stellvertretung nach § 164 BGB setzt eine eigene Willenserklärung des Vertreters im Namen des Vertretenen voraus, und § 165 BGB zeigt, dass dieser Vertreter zumindest beschränkt geschäftsfähig sein muss. Ein Softwareagent ist beides nicht: Er hat keine Rechtspersönlichkeit und er kann nicht selbst wollen. Die Konstruktion bricht, sobald man sie belastet. An ihre Stelle tritt die autonome Computererklärung.</p>
+                    <p class="section-body"><a href="https://contraco.de/agentic-commerce-governance.html">Vollständige Behandlung des Begriffs</a></p>
+                </div>
+            </div>
+        </section>
 
-                    <div class="faq-item">
-                        <h3 class="faq-question">Kann ein KI-Agent für unser Unternehmen einen Vertrag schließen?</h3>
-                        <p class="faq-answer">Ja, im Ergebnis. Nicht als Stellvertreter, sondern indem seine Erklärung Ihnen als autonome Computererklärung über die Ersteinrichtung zugerechnet wird. Rechtlich erklären Sie, technisch erklärt der Agent.</p>
-                    </div>
+        <section class="content-section white">
+            <div class="container">
+                <div class="content-block">
+                    <h2 class="section-title">Agentic Commerce</h2>
+                    <p class="section-body">Der Handel, bei dem ein KI-Agent recherchiert, vergleicht und bestellt, ohne dass ein Mensch den letzten Klick setzt. Die Verschiebung betrifft nicht die Oberfläche, sondern die Architektur des Vertriebs: Wer als Anbieter teilnehmen will, muss maschinenlesbar sein, und wer teilnimmt, muss geklärt haben, wem eine agentisch ausgelöste Bestellung zugerechnet wird. Beide Fragen fallen zusammen an und werden in der Praxis getrennt bearbeitet.</p>
+                </div>
+            </div>
+        </section>
 
-                    <div class="faq-item">
-                        <h3 class="faq-question">Wer im Unternehmen ist dafür verantwortlich?</h3>
-                        <p class="faq-answer">Konfiguration, Überwachung und Freigabe brauchen je eine benannte Rolle. Bleiben sie unbenannt, fallen sie faktisch an die Geschäftsführung zurück.</p>
-                    </div>
+        <section class="content-section gray">
+            <div class="container">
+                <div class="content-block">
+                    <h2 class="section-title">MCP, Model Context Protocol</h2>
+                    <p class="section-body">Ein von Anthropic eingeführtes und breit adoptiertes Protokoll für die Verbindung zwischen einem Agenten und den Werkzeugen oder Systemen, die er nutzt. MCP regelt den Zugang, nicht die Befugnis: Es beschreibt, worüber ein Agent etwas erreichen kann, und sagt nichts darüber, wer an das gebunden ist, was er damit tut. Für die Governance-Frage ist es damit eine Voraussetzung und keine Antwort. Ein Unternehmen, das MCP anbindet, hat seine Systeme erreichbar gemacht und die Frage nach den Grenzen dieser Erreichbarkeit noch vor sich.</p>
+                </div>
+            </div>
+        </section>
 
-                    <div class="faq-item">
-                        <h3 class="faq-question">Wie verteilt sich die Haftung entlang der Vertragskette?</h3>
-                        <p class="faq-answer">Jede Partei haftet für ihren eigenen Beitrag: der Anbieter für die fehlerfreie Bereitstellung, der Händler für die Richtigkeit seiner Daten, der Einsetzende für die Erklärung, die ihm zugerechnet wird. Diese Verteilung greift auch dann, wenn sie nirgends vereinbart wurde.</p>
-                    </div>
+        <section class="content-section white">
+            <div class="container">
+                <div class="content-block">
+                    <h2 class="section-title">A2A, Agent2Agent</h2>
+                    <p class="section-body">Ein von Google eingeführtes Protokoll für die Delegation einer Aufgabe von einem Agenten an einen anderen. Es beschreibt den Übergabepunkt in einer Kette, an dem eine Berechtigung weitergereicht wird, und ist damit die technische Entsprechung eines Glieds der Delegationskette. Genau an solchen Übergabepunkten entscheidet sich, ob eine Kette im Streitfall nachvollziehbar bleibt. Ein Protokoll, das die Übergabe regelt, macht sie technisch möglich; ob sie dokumentiert ist, bleibt eine Frage der Konfiguration.</p>
+                </div>
+            </div>
+        </section>
 
-                    <div class="faq-item">
-                        <h3 class="faq-question">In welchem Rahmen darf ein Agent binden?</h3>
-                        <p class="faq-answer">In dem Rahmen, den Sie bei der Einrichtung gesetzt haben. Betragsgrenzen, Mengengrenzen und zulässige Gegenparteien gehören technisch durchgesetzt und nicht nur in eine Richtlinie geschrieben.</p>
-                    </div>
+        <section class="content-section gray">
+            <div class="container">
+                <div class="content-block">
+                    <h2 class="section-title">ACP, Agentic Commerce Protocol</h2>
+                    <p class="section-body">Ein von OpenAI und Stripe unter Apache 2.0 veröffentlichtes Protokoll für Produktdaten, Checkout-Sitzung und delegierte Zahlung. Es trug OpenAIs Instant Checkout, das 2026 eingestellt und in Richtung Discovery neu ausgerichtet wurde. Der Verlauf ist für Anbieter lehrreich: Die Protokollschicht bewegt sich schneller als die Systeme, die daran angeschlossen werden. Wer seine Datenhaltung an ein einzelnes Protokoll bindet, übernimmt dessen Lebensdauer als eigenes Risiko.</p>
+                </div>
+            </div>
+        </section>
 
-                    <div class="faq-item">
-                        <h3 class="faq-question">Wo ist eine menschliche Freigabe zwingend?</h3>
-                        <p class="faq-answer">Immer dort, wo der Vorgang den gesetzten Rahmen verlässt, und regelmäßig bei erstmaligen Gegenparteien, bei atypischen Beträgen und bei Dauerschuldverhältnissen.</p>
-                    </div>
+        <section class="content-section white">
+            <div class="container">
+                <div class="content-block">
+                    <h2 class="section-title">UCP, Universal Commerce Protocol</h2>
+                    <p class="section-body">Ein von Google gemeinsam mit Shopify entwickelter offener Standard über die gesamte Einkaufsstrecke, vorgestellt im Januar 2026 und kompatibel mit A2A, AP2 und MCP. Bemerkenswert für die Zurechnungsfrage: Jede Autorisierung ist mit einem kryptografischen Nachweis der Zustimmung des Nutzers hinterlegt. Damit wird das, was der Nutzer konfiguriert hat, zu einer dokumentierten Tatsache statt zu einer Behauptung, über die im Streitfall gestritten wird. Das ist die technische Form des Mandats, das die Delegationskette beschreibt.</p>
+                </div>
+            </div>
+        </section>
 
-                    <div class="faq-item">
-                        <h3 class="faq-question">Wie dokumentieren wir die Entscheidungen eines Agenten?</h3>
-                        <p class="faq-answer">So, dass Auftrag, Rahmen, Entscheidung und Ausführung im Nachhinein einzeln nachvollziehbar sind. Ein Protokoll, das nur das Ergebnis festhält, hilft im Streitfall nicht.</p>
-                    </div>
+        <section class="content-section gray">
+            <div class="container">
+                <div class="content-block">
+                    <h2 class="section-title">AP2, Agent Payments Protocol</h2>
+                    <p class="section-body">Ein von Google eingeführtes Protokoll für die Zahlungsseite agentischer Transaktionen. Es ergänzt die Aufgaben- und Datenprotokolle um den Teil, an dem Geld fließt, und ist mit dem Universal Commerce Protocol kompatibel. Die Zahlung ist dabei die Stelle, an der die Delegationskette auf das europäische Zahlungsrecht trifft, und damit die Stelle, an der aus einer technischen Frage eine Haftungsfrage wird. Wer hier delegiert, delegiert nicht nur eine Aufgabe, sondern eine Verfügung.</p>
+                </div>
+            </div>
+        </section>
 
-                    <div class="faq-item">
-                        <h3 class="faq-question">Was verlangt die EU-KI-Verordnung konkret?</h3>
-                        <p class="faq-answer">Ein Verzeichnis der eingesetzten Systeme, eine Risikoeinstufung, benannte Verantwortlichkeiten und eine belastbare Dokumentation. Die Bestandsaufnahme ist der erste Schritt und meist auch der aufwendigste.</p>
-                    </div>
-
-                    <div class="faq-item">
-                        <h3 class="faq-question">Löst die EUDI-Wallet das Problem?</h3>
-                        <p class="faq-answer">Sie löst die Identitätsfrage, und das ist erheblich. Sie löst nicht die Mandats- und Haftungsfrage, weil Identität nicht sagt, wozu jemand beauftragt war.</p>
-                    </div>
+        <section class="content-section white">
+            <div class="container">
+                <div class="content-block">
+                    <h2 class="section-title">GEO, Generative Engine Optimization</h2>
+                    <p class="section-body">Der Begriff, den der Markt für die Sichtbarkeit innerhalb von KI-Systemen gefunden hat. Er ist nützlich, weil er die Frage von der Suchmaschine löst, und irreführend, wenn er als Textdisziplin verstanden wird. Entscheidend ist nicht, wie eine Seite für ein Modell formuliert ist, sondern ob die Produktdaten darunter die Attribute tragen, die eine Maschine für eine Empfehlung braucht. Die sichtbare Seite und das maschinenlesbare Produkt sind zwei verschiedene Anlagegüter, und in den meisten Unternehmen wird nur eines davon gepflegt.</p>
                 </div>
             </div>
         </section>
@@ -857,7 +885,7 @@
         <section class="cta-section">
             <div class="container">
                 <h2 class="cta-title">Beginnen wir das Gespräch</h2>
-                <p class="cta-text">Wenn die Haftungsfrage Ihr eigentliches Thema ist, klären wir zuerst Zurechnung, Verantwortlichkeiten und Nachweisführung, und zwar bevor der erste Agent verbindlich für Sie erklärt.</p>
+                <p class="cta-text">Wenn einer dieser Begriffe in Ihrem Haus gerade unterschiedlich verwendet wird, ist das kein Sprachproblem. Es ist eine offene Zuständigkeit.</p>
                 <a href="https://contraco.de/#contact" class="cta-button">
                     Kontakt aufnehmen
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink: 0;">
