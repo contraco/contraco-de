@@ -64,7 +64,7 @@ contraco publiziert auf vier Domains: [Englisch](https://contraco.net), [Deutsch
 - [Psychologie der Preisgestaltung](https://contraco.de/pricing-psychology.html)
 - [Datenschutzerklärung](https://contraco.de/privacy-statement.html)
 - [Publikationen & Presse](https://contraco.de/publikationen.html)
-- [Die Resonance Method™ | Organisationsveränderung von contraco](https://contraco.de/resonance-method.html)
+- [Die Resonance Method™ | Organisationsveränderung](https://contraco.de/resonance-method.html)
 - [Strategische Intelligenz unter Unsicherheit](https://contraco.de/strategic-intelligence.html)
 - [Lieferantenauswahl meistern: Strategische Partnerwahl](https://contraco.de/vendor-selection-mastery.html)
 - [Wer prüft den Agenten?](https://contraco.de/who-audits-the-ai-agent.html)
