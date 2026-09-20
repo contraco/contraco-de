@@ -60,6 +60,7 @@ contraco publiziert auf vier Domains: [Englisch](https://contraco.net), [Deutsch
 - [Insights contraco | Transformation Strategie und Forschung](https://contraco.de/insights.html)
 - [Kann ein KI-Agent einen Vertrag schließen?](https://contraco.de/ki-agent-vertragsschluss.html)
 - [KI-Transformation führen: Die menschliche Seite](https://contraco.de/leading-ai-transformation.html)
+- [Die Mandatsketten-Diagnostik](https://contraco.de/mandate-chain-diagnostic.html)
 - [KI-Organisationsdesign](https://contraco.de/organizational-design-ai.html)
 - [Psychologie der Preisgestaltung](https://contraco.de/pricing-psychology.html)
 - [Datenschutzerklärung](https://contraco.de/privacy-statement.html)
