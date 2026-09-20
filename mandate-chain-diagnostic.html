@@ -586,9 +586,9 @@
 
         function resultName(scores, T, C, S, G) {
             if (scores.q1 === 5) { return 'Ohne Kettenentsprechung'; }
+            if (T === 1) { return 'Beobachter'; }
             if (scores.q5 === 0 && T >= 3) { return 'Nicht nachweisbar'; }
             if (scores.q3 >= 2 && scores.q4 <= 1) { return 'Mandat ohne Durchsetzung'; }
-            if (T === 1) { return 'Beobachter'; }
             if (S > T && T <= 2) { return 'Vorbereitet'; }
             if (G <= 0) { return 'Gedeckt'; }
             if (G === 1) { return 'Knapp gedeckt'; }
