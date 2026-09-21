@@ -42,9 +42,6 @@ Disallow: /
 User-agent: ClaudeBot
 Disallow: /
 
-User-agent: Claude-Web
-Disallow: /
-
 User-agent: Applebot-Extended
 Disallow: /
 
