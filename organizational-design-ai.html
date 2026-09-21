@@ -79,7 +79,7 @@
     <style>
         :root {
             --primary-red: #C00000;
-            --deep-charcoal: #1a1a1a;
+            --deep-charcoal: #404040;
             --warm-gray-dark: #4a4a4a;
             --warm-gray-light: #b8b8b8;
             --warm-gray-lightest: #f5f5f5;
@@ -805,15 +805,8 @@
             "name": "Frank Meltke",
             "url": "https://meltke.com"
         },
-        "publisher": {
-            "@type": "Organization",
-            "name": "contraco",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://contraco.de/images/logo.png"
-            }
-        },
-        "datePublished": "2024-01-15",
+        "publisher": { "@type": "Organization", "name": "contraco", "url": "https://contraco.de/" },
+        "datePublished": "2025-09-21",
         "dateModified": "2026-08-20",
         "url": "https://contraco.de/organizational-design-ai.html",
         "mainEntityOfPage": {
@@ -854,7 +847,7 @@
     "@type": "WebPage",
     "url": "https://contraco.de/organizational-design-ai.html",
     "name": "KI-Organisationsdesign | contraco",
-    "dateModified": "2026-09-07",
+    "dateModified": "2026-09-21",
     "isPartOf": {
         "@type": "WebSite",
         "@id": "https://contraco.de/#website",
@@ -863,6 +856,16 @@
     }
 }
 </script>
+    <style>
+        /* Mobile menu, added 2026-09-21 */
+        .mnav-toggle { display: none; background: none; border: none; font-size: 1.5rem; line-height: 1; padding: 8px; cursor: pointer; color: var(--deep-charcoal); }
+        @media (max-width: 768px) {
+            .mnav-toggle { display: block; }
+            .nav-menu { display: none !important; }
+            body.mnav-open .nav-menu { display: flex !important; flex-direction: column; align-items: flex-start; gap: 16px; position: absolute; top: 100%; left: 0; right: 0; margin: 0; padding: 20px 24px; list-style: none; background: var(--warm-white, white); box-shadow: 0 8px 30px rgba(0,0,0,0.08); z-index: 1001; }
+            body.mnav-open .nav-menu ul { display: flex !important; flex-direction: column; gap: 16px; margin: 0; padding: 0; }
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
@@ -874,11 +877,22 @@
                      onerror="this.parentElement.classList.add('logo-failed');" width="241" height="108">
                 <span class="logo-fallback">contraco</span>
             </a>
+            <button class="mnav-toggle" type="button" aria-label="Menü" aria-expanded="false" onclick="toggleMenu()">☰</button>
+            <script>
+                function toggleMenu() {
+                    var open = document.body.classList.toggle('mnav-open');
+                    var b = document.querySelector('.mnav-toggle');
+                    if (b) { b.setAttribute('aria-expanded', open ? 'true' : 'false'); }
+                }
+                document.addEventListener('click', function (e) {
+                    if (e.target.closest && e.target.closest('.nav-menu a')) { document.body.classList.remove('mnav-open'); }
+                });
+            </script>
             <div class="nav-menu">
                 <a href="https://contraco.de/" class="nav-link">Startseite</a>
                 <a href="https://contraco.de/#services" class="nav-link">Leistungen</a>
                 <a href="https://contraco.de/#methodology" class="nav-link">Methodik</a>
-                <a href="https://contraco.de/insights.html" class="nav-link">Einblicke</a>
+                <a href="https://contraco.de/insights.html" class="nav-link">Insights</a>
                 <a href="https://contraco.de/about.html" class="nav-link">Über uns</a>
                 <a href="https://contraco.de/publikationen.html" class="nav-link">Publikationen</a>
                 <a href="https://contraco.de/contact.html" class="nav-link">Kontakt</a>
@@ -1171,7 +1185,7 @@
                         <a href="https://contraco.de/about.html">Über uns</a>
                         <a href="https://contraco.de/#services">Dienstleistungen</a>
                         <a href="https://contraco.de/#methodology">Methodik</a>
-                        <a href="https://contraco.de/insights.html">Einblicke</a>
+                        <a href="https://contraco.de/insights.html">Insights</a>
                         <a href="https://contraco.de/publikationen.html">Publikationen</a>
                         <a href="https://contraco.de/contact.html">Kontakt</a>
                     </div>

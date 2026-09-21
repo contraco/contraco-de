@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contraco | KI-Strategie und Transformation | Frank Meltke</title>
+    <title>contraco | KI-Strategie und Transformation</title>
     
     <!-- Canonical Tag -->
     <link rel="canonical" href="https://contraco.de/">
@@ -937,8 +937,8 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "url": "https://contraco.de/",
-    "name": "contraco | KI-Strategie und Transformation | Frank Meltke",
-    "dateModified": "2026-09-07",
+    "name": "contraco | KI-Strategie und Transformation",
+    "dateModified": "2026-09-21",
     "isPartOf": {
         "@type": "WebSite",
         "@id": "https://contraco.de/#website",
@@ -947,6 +947,16 @@
     }
 }
 </script>
+    <style>
+        /* Mobile menu, added 2026-09-21 */
+        .mnav-toggle { display: none; background: none; border: none; font-size: 1.5rem; line-height: 1; padding: 8px; cursor: pointer; color: var(--deep-charcoal); }
+        @media (max-width: 768px) {
+            .mnav-toggle { display: block; }
+            .nav-menu { display: none !important; }
+            body.mnav-open .nav-menu { display: flex !important; flex-direction: column; align-items: flex-start; gap: 16px; position: absolute; top: 100%; left: 0; right: 0; margin: 0; padding: 20px 24px; list-style: none; background: var(--warm-white, white); box-shadow: 0 8px 30px rgba(0,0,0,0.08); z-index: 1001; }
+            body.mnav-open .nav-menu ul { display: flex !important; flex-direction: column; gap: 16px; margin: 0; padding: 0; }
+        }
+    </style>
 </head>
 <body>
       <!-- Navigation -->
@@ -959,7 +969,18 @@
                 <span class="logo-fallback">contraco</span>
             </a>
             <div style="display: flex; align-items: center;">
-                <ul class="nav-menu">
+                <button class="mnav-toggle" type="button" aria-label="Menü" aria-expanded="false" onclick="toggleMenu()">☰</button>
+            <script>
+                function toggleMenu() {
+                    var open = document.body.classList.toggle('mnav-open');
+                    var b = document.querySelector('.mnav-toggle');
+                    if (b) { b.setAttribute('aria-expanded', open ? 'true' : 'false'); }
+                }
+                document.addEventListener('click', function (e) {
+                    if (e.target.closest && e.target.closest('.nav-menu a')) { document.body.classList.remove('mnav-open'); }
+                });
+            </script>
+            <ul class="nav-menu">
                     <li><a href="https://contraco.de/#services" class="nav-link">Dienstleistungen</a></li>
                     <li><a href="https://contraco.de/#methodology" class="nav-link">Methodik</a></li>
                     <li><a href="https://contraco.de/insights.html" class="nav-link">Insights</a></li>

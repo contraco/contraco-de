@@ -392,16 +392,21 @@
         "name": "Datenschutzerklärung",
         "description": "Datenschutzerklärung für contraco - Datenschutzrichtlinien und -praktiken",
         "url": "https://contraco.de/privacy-statement.html",
-        "publisher": {
-            "@type": "Organization",
-            "name": "contraco",
-            "url": "https://contraco.de/",
-            "logo": "https://contraco.de/Logo_rectangle.svg"
-        },
-        "dateModified": "2026-09-07"
+        "publisher": { "@type": "Organization", "name": "contraco", "url": "https://contraco.de/" },
+        "dateModified": "2026-09-21"
     }
     </script>
 
+    <style>
+        /* Mobile menu, added 2026-09-21 */
+        .mnav-toggle { display: none; background: none; border: none; font-size: 1.5rem; line-height: 1; padding: 8px; cursor: pointer; color: var(--deep-charcoal); }
+        @media (max-width: 768px) {
+            .mnav-toggle { display: block; }
+            .nav-menu { display: none !important; }
+            body.mnav-open .nav-menu { display: flex !important; flex-direction: column; align-items: flex-start; gap: 16px; position: absolute; top: 100%; left: 0; right: 0; margin: 0; padding: 20px 24px; list-style: none; background: var(--warm-white, white); box-shadow: 0 8px 30px rgba(0,0,0,0.08); z-index: 1001; }
+            body.mnav-open .nav-menu ul { display: flex !important; flex-direction: column; gap: 16px; margin: 0; padding: 0; }
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
@@ -413,6 +418,17 @@
                      onerror="this.parentElement.classList.add('logo-failed');" width="241" height="108">
                 <span class="logo-fallback">contraco</span>
             </a>
+            <button class="mnav-toggle" type="button" aria-label="Menü" aria-expanded="false" onclick="toggleMenu()">☰</button>
+            <script>
+                function toggleMenu() {
+                    var open = document.body.classList.toggle('mnav-open');
+                    var b = document.querySelector('.mnav-toggle');
+                    if (b) { b.setAttribute('aria-expanded', open ? 'true' : 'false'); }
+                }
+                document.addEventListener('click', function (e) {
+                    if (e.target.closest && e.target.closest('.nav-menu a')) { document.body.classList.remove('mnav-open'); }
+                });
+            </script>
             <ul class="nav-menu">
                 <li><a href="/#services" class="nav-link">Leistungen</a></li>
                 <li><a href="/#methodology" class="nav-link">Methodik</a></li>

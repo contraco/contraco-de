@@ -177,7 +177,7 @@
         "url": "https://contraco.de/framework-agentic-commerce.html",
         "name": "Das Agentic-Commerce-Framework: Sechs Stufen autonomen Einkaufens | contraco",
         "description": "Sechs Stufen, die bestimmen, wie autonom KI-Agenten heute einkaufen, und was das für Vertriebsarchitekturen, Fraud-Prevention und Governance im deutschen und europäischen Markt bedeutet.",
-        "dateModified": "2026-09-07",
+        "dateModified": "2026-09-21",
         "isPartOf": {
             "@type": "WebSite",
             "@id": "https://contraco.de/#website",
@@ -397,6 +397,18 @@
             .menu-toggle { display: block; }
         }
     </style>
+    <style>
+        /* Mobile menu repair, added 2026-09-21 */
+        @media (min-width: 769px) {
+            .menu-toggle { display: none !important; }
+        }
+        @media (max-width: 768px) {
+            .menu-toggle { display: block !important; }
+            .nav-menu { display: none !important; }
+            .nav-menu.active { display: flex !important; flex-direction: column; align-items: flex-start; gap: 16px; position: absolute; top: 100%; left: 0; right: 0; margin: 0; padding: 20px 24px; background: var(--warm-white, white); box-shadow: 0 8px 30px rgba(0,0,0,0.08); z-index: 1001; }
+            .nav-menu.active ul { display: flex !important; flex-direction: column; gap: 16px; margin: 0; padding: 0; }
+        }
+    </style>
 </head>
 <body>
 
@@ -524,7 +536,7 @@
                 <div class="content-block">
                     <div class="level-label">Level 5</div>
                     <h2 class="section-title">Vollautonome Agentenkette</h2>
-                    <p class="section-body">Mehrere Agenten koordinieren Bedarfserkennung, Lieferantenauswahl, Compliance-Prüfung und Zahlungsautorisierung ohne menschliche Eingriffspunkte. Ein Beschaffungsagent erkennt den Bedarf anhand von Lagerbeständen oder Nutzungsmustern, ein Verhandlungsagent spricht Konditionen ab, ein Compliance-Agent prüft DSGVO-Anforderungen und Sanktionslisten, ein Zahlungsagent löst die Transaktion aus. Kein Mensch genehmigt diesen Ablauf im laufenden Betrieb.</p>
+                    <p class="section-body">Mehrere Agenten koordinieren Bedarfserkennung, <a href="https://contraco.de/vendor-selection-mastery.html">Lieferantenauswahl</a>, Compliance-Prüfung und Zahlungsautorisierung ohne menschliche Eingriffspunkte. Ein Beschaffungsagent erkennt den Bedarf anhand von Lagerbeständen oder Nutzungsmustern, ein Verhandlungsagent spricht Konditionen ab, ein Compliance-Agent prüft DSGVO-Anforderungen und Sanktionslisten, ein Zahlungsagent löst die Transaktion aus. Kein Mensch genehmigt diesen Ablauf im laufenden Betrieb.</p>
                     <p class="section-body">Die EU-KI-Verordnung adressiert diese Stufe direkt: Systeme, die autonom Kaufentscheidungen mit erheblichen Auswirkungen treffen, unterliegen Anforderungen an Transparenz, Nachvollziehbarkeit und menschliche Aufsicht. Anbieter, die für Level-5-Käufer sichtbar sein wollen, müssen Transaktionsdaten in einem Format bereitstellen, das eine Agentenkette ohne zusätzliche Interpretation verarbeiten kann: normierte Preisstruktur, maschinenverifizierbare Bedingungen, garantierte Verfügbarkeitszusagen über API. Unternehmen, die auf Stufe 5 operieren, ohne eine Governance-Architektur für Stufe 3 und 4 aufgebaut zu haben, tragen Haftungsrisiken, die in den meisten Vertragswerken und Versicherungspolicen noch nicht explizit abgedeckt sind.</p>
                 </div>
             </div>

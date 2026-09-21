@@ -157,7 +157,7 @@
         "url": "https://contraco.de/ki-agent-vertragsschluss.html",
         "name": "Kann ein KI-Agent einen Vertrag schließen? | contraco",
         "inLanguage": "de",
-        "dateModified": "2026-09-07",
+        "dateModified": "2026-09-21",
         "isPartOf": {
             "@type": "WebSite",
             "@id": "https://contraco.de/#website",
@@ -629,6 +629,18 @@
 
         @media (max-width: 480px) {
             .hero-title { font-size: 2rem; }
+        }
+    </style>
+    <style>
+        /* Mobile menu repair, added 2026-09-21 */
+        @media (min-width: 769px) {
+            .menu-toggle { display: none !important; }
+        }
+        @media (max-width: 768px) {
+            .menu-toggle { display: block !important; }
+            .nav-menu { display: none !important; }
+            .nav-menu.active { display: flex !important; flex-direction: column; align-items: flex-start; gap: 16px; position: absolute; top: 100%; left: 0; right: 0; margin: 0; padding: 20px 24px; background: var(--warm-white, white); box-shadow: 0 8px 30px rgba(0,0,0,0.08); z-index: 1001; }
+            .nav-menu.active ul { display: flex !important; flex-direction: column; gap: 16px; margin: 0; padding: 0; }
         }
     </style>
 </head>
