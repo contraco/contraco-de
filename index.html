@@ -957,6 +957,20 @@
             body.mnav-open .nav-menu ul { display: flex !important; flex-direction: column; gap: 16px; margin: 0; padding: 0; }
         }
     </style>
+    <style>
+        /* Fliesstextlinks ohne eigene Klasse in Markenfarbe, 2026-10-03. Null-Spezifitaet, greift nur, wo kein anderes Seitenstyling die Linkfarbe setzt. */
+        :where(body) :where(a:not([class])) { color: var(--primary-red); }
+        :where(.cta-section, .leadership-insight, .change-challenge) :where(a:not([class])) { color: inherit; }
+        /* Lange deutsche Komposita in Ueberschriften brechen auf schmalen Bildschirmen um, 2026-10-03. */
+        @media (max-width: 600px) {
+            :where(h1, h2, h3, h4) { overflow-wrap: break-word; hyphens: auto; }
+        }
+        /* Seitenspezifische Korrektur fuer 390 px, 2026-10-03. */
+        @media (max-width: 600px) {
+            .hero > .container { width: 100%; }
+            .hero-text h1 { font-size: 1.7rem; }
+        }
+    </style>
 </head>
 <body>
       <!-- Navigation -->

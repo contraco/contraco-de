@@ -119,6 +119,19 @@
         .footer-privacy-links a { color: rgba(255,255,255,0.6); text-decoration: none; font-size: 0.85rem; }
         .footer-privacy-links a:hover { color: white; }
     </style>
+    <style>
+        /* Fliesstextlinks ohne eigene Klasse in Markenfarbe, 2026-10-03. Null-Spezifitaet, greift nur, wo kein anderes Seitenstyling die Linkfarbe setzt. */
+        :where(body) :where(a:not([class])) { color: var(--primary-red); }
+        :where(.cta-section, .leadership-insight, .change-challenge) :where(a:not([class])) { color: inherit; }
+        /* Lange deutsche Komposita in Ueberschriften brechen auf schmalen Bildschirmen um, 2026-10-03. */
+        @media (max-width: 600px) {
+            :where(h1, h2, h3, h4) { overflow-wrap: break-word; hyphens: auto; }
+        }
+        /* Seitenspezifische Korrektur fuer 390 px, 2026-10-03. */
+        @media (max-width: 600px) {
+            .footer-content { grid-template-columns: 1fr; gap: 30px; }
+        }
+    </style>
 </head>
 <body>
 
