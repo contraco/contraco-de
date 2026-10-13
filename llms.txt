@@ -46,6 +46,7 @@ contraco publiziert auf vier Domains: [Englisch](https://contraco.net), [Deutsch
 - [Wenn KI-Agenten das Reiseportal ersetzen](https://contraco.de/ai-agents-travel-booking.html)
 - [KI-Strategie Framework für Unternehmen](https://contraco.de/ai-strategy-framework.html)
 - [Vertrauen ist der Engpass, und Banken besitzen es](https://contraco.de/banks-agentic-commerce-trust.html)
+- [Der Bestellbutton und der KI-Agent](https://contraco.de/bestellbutton-ki-agent.html)
 - [CFO-Leitfaden: ROI der digitalen Transformation](https://contraco.de/cfo-digital-transformation-roi.html)
 - [Urheberrecht und Markenzeichen](https://contraco.de/copyright.html)
 - [Kulturelle Anpassung in Transformationen](https://contraco.de/cultural-adaptation-guide.html)
