@@ -227,7 +227,7 @@
         "url": "https://contraco.de/agentic-commerce-governance.html",
         "name": "Agentic Commerce Governance | contraco",
         "inLanguage": "de",
-        "dateModified": "2026-10-03",
+        "dateModified": "2026-10-14",
         "isPartOf": {
             "@type": "WebSite",
             "@id": "https://contraco.de/#website",
@@ -631,6 +631,17 @@
             color: var(--deep-charcoal);
             line-height: 1.85;
         }
+
+        /* Grafik und Beispieltabelle, ergänzt 2026-10-14 */
+        .figure-block { background: white; border: 1px solid var(--warm-gray-medium); border-radius: 8px; padding: 32px; margin: 36px 0 32px; overflow-x: auto; }
+        .figure-caption { font-size: 0.88rem; color: var(--warm-gray-dark); text-align: center; margin-top: 16px; font-style: italic; }
+        .example-table-wrap { margin: 32px 0 0; overflow-x: auto; }
+        .example-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; line-height: 1.6; color: var(--deep-charcoal); background: white; }
+        .example-table caption { caption-side: top; text-align: left; font-family: var(--font-serif); font-size: 1.15rem; font-weight: 600; margin-bottom: 12px; color: var(--deep-charcoal); }
+        .example-table th, .example-table td { text-align: left; vertical-align: top; padding: 12px 14px; border-bottom: 1px solid var(--warm-gray-medium); }
+        .example-table thead th { background: var(--warm-gray); font-size: 0.85rem; letter-spacing: 0.04em; text-transform: uppercase; }
+        .example-table tbody th { width: 30%; font-weight: 700; color: var(--primary-red); }
+        .example-note { font-size: 0.85rem; color: var(--warm-gray-dark); font-style: italic; margin-top: 10px; }
     </style>
     <style>
         /* Mobile menu repair, added 2026-09-21 */
@@ -779,6 +790,94 @@
                     </ul>
                     <p class="section-body">Wer diese vier Fragen beantwortet hat, hat eine Governance. Wer sie nicht beantwortet hat, hat eine Absichtserklärung.</p>
                     <p class="section-body">Wo diese Begriffe im Haus unterschiedlich verwendet werden, ist das kein Sprachproblem, sondern eine offene Zuständigkeit. Wir haben sie deshalb im <a href="https://contraco.de/agentic-commerce-glossar.html">Agentic Commerce Glossar</a> festgelegt, jeweils mit der Seite verlinkt, auf der sie entwickelt werden.</p>
+                    <!-- Backward attribution diagram, contraco original, added 2026-10-14 -->
+                    <figure class="figure-block">
+                        <svg viewBox="0 0 780 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="acg-attr-title acg-attr-desc" style="width:100%;max-width:780px;height:auto;display:block;margin:0 auto;">
+                            <title id="acg-attr-title">Zurechnung rückwärts, von der Transaktion zur Ersteinrichtung</title>
+                            <desc id="acg-attr-desc">Grafik von contraco. Die Ersteinrichtung setzt den Rahmen, der Agent erklärt innerhalb des Korridors, die Transaktion folgt. Die Zurechnung läuft von der Transaktion zurück zur Ersteinrichtung. Vier Fragen sind schriftlich zu beantworten, Willenskorridor, menschliche Freigabe, Dokumentation und benannte Rolle. Verlässt ein Vorgang den Rahmen, ist die menschliche Freigabe zwingend, regelmäßig auch bei erstmaliger Gegenpartei, atypischem Betrag oder Dauerschuldverhältnis.</desc>
+                            <defs>
+                                <marker id="acg-arr-fwd" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" style="fill: var(--warm-gray-medium);"/></marker>
+                                <marker id="acg-arr-back" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" style="fill: var(--primary-red);"/></marker>
+                            </defs>
+                            <rect x="0" y="0" width="780" height="400" rx="8" style="fill: var(--warm-white);"/>
+                            <!-- Row 1: order of events -->
+                            <text x="20" y="26" text-anchor="start" font-family="Lato, sans-serif" font-size="11" font-weight="600" style="fill: var(--warm-gray-dark);">Ablauf</text>
+                            <rect x="20" y="36" width="164" height="64" rx="6" style="fill: var(--deep-charcoal);"/>
+                            <text x="102.0" y="63" text-anchor="middle" font-family="Lato, sans-serif" font-size="13" font-weight="700" style="fill: white;">Ersteinrichtung</text>
+                            <text x="102.0" y="83" text-anchor="middle" font-family="Lato, sans-serif" font-size="10.5" font-weight="400" style="fill: white;">Konfiguration des Agenten</text>
+                            <line x1="186" y1="68" x2="209" y2="68" style="stroke: var(--warm-gray-medium); stroke-width: 2;" marker-end="url(#acg-arr-fwd)"/>
+                            <rect x="212" y="36" width="164" height="64" rx="6" style="fill: white; stroke: var(--warm-gray-medium); stroke-width: 1;"/>
+                            <text x="294.0" y="63" text-anchor="middle" font-family="Lato, sans-serif" font-size="13" font-weight="700" style="fill: var(--deep-charcoal);">Rahmen</text>
+                            <text x="294.0" y="83" text-anchor="middle" font-family="Lato, sans-serif" font-size="10.5" font-weight="400" style="fill: var(--warm-gray-dark);">bei der Einrichtung gesetzt</text>
+                            <line x1="378" y1="68" x2="401" y2="68" style="stroke: var(--warm-gray-medium); stroke-width: 2;" marker-end="url(#acg-arr-fwd)"/>
+                            <rect x="404" y="36" width="164" height="64" rx="6" style="fill: white; stroke: var(--warm-gray-medium); stroke-width: 1;"/>
+                            <text x="486.0" y="63" text-anchor="middle" font-family="Lato, sans-serif" font-size="13" font-weight="700" style="fill: var(--deep-charcoal);">Agent erklärt</text>
+                            <text x="486.0" y="83" text-anchor="middle" font-family="Lato, sans-serif" font-size="10.5" font-weight="400" style="fill: var(--warm-gray-dark);">innerhalb des Korridors</text>
+                            <line x1="570" y1="68" x2="593" y2="68" style="stroke: var(--warm-gray-medium); stroke-width: 2;" marker-end="url(#acg-arr-fwd)"/>
+                            <rect x="596" y="36" width="164" height="64" rx="6" style="fill: white; stroke: var(--warm-gray-medium); stroke-width: 1;"/>
+                            <text x="678.0" y="63" text-anchor="middle" font-family="Lato, sans-serif" font-size="13" font-weight="700" style="fill: var(--deep-charcoal);">Transaktion</text>
+                            <text x="678.0" y="83" text-anchor="middle" font-family="Lato, sans-serif" font-size="10.5" font-weight="400" style="fill: var(--warm-gray-dark);">Vertragsschluss</text>
+                            <!-- Attribution runs backwards -->
+                            <path d="M678 100 L678 128 L102 128 L102 102" style="fill: none; stroke: var(--primary-red); stroke-width: 2.5;" marker-end="url(#acg-arr-back)"/>
+                            <text x="390.0" y="150" text-anchor="middle" font-family="Lato, sans-serif" font-size="12" font-weight="700" style="fill: var(--primary-red);">Zurechnung rückwärts, von der Transaktion zur Ersteinrichtung</text>
+                            <!-- Row 3: four artefacts -->
+                            <text x="20" y="184" text-anchor="start" font-family="Lato, sans-serif" font-size="11" font-weight="600" style="fill: var(--warm-gray-dark);">Vier Fragen, schriftlich beantwortet</text>
+                            <rect x="20" y="194" width="164" height="76" rx="6" style="fill: var(--warm-gray-light); stroke: var(--warm-gray-medium); stroke-width: 1;"/>
+                            <text x="102.0" y="218" text-anchor="middle" font-family="Lato, sans-serif" font-size="12.5" font-weight="700" style="fill: var(--deep-charcoal);">Willenskorridor</text>
+                            <text x="102.0" y="238" text-anchor="middle" font-family="Lato, sans-serif" font-size="10.5" font-weight="400" style="fill: var(--warm-gray-dark);">je Anwendungsfall,</text>
+                            <text x="102.0" y="254" text-anchor="middle" font-family="Lato, sans-serif" font-size="10.5" font-weight="400" style="fill: var(--warm-gray-dark);">technisch durchgesetzt</text>
+                            <rect x="212" y="194" width="164" height="76" rx="6" style="fill: var(--warm-gray-light); stroke: var(--warm-gray-medium); stroke-width: 1;"/>
+                            <text x="294.0" y="218" text-anchor="middle" font-family="Lato, sans-serif" font-size="12.5" font-weight="700" style="fill: var(--deep-charcoal);">Menschliche Freigabe</text>
+                            <text x="294.0" y="238" text-anchor="middle" font-family="Lato, sans-serif" font-size="10.5" font-weight="400" style="fill: var(--warm-gray-dark);">wo der Vorgang</text>
+                            <text x="294.0" y="254" text-anchor="middle" font-family="Lato, sans-serif" font-size="10.5" font-weight="400" style="fill: var(--warm-gray-dark);">den Rahmen verlässt</text>
+                            <rect x="404" y="194" width="164" height="76" rx="6" style="fill: var(--warm-gray-light); stroke: var(--warm-gray-medium); stroke-width: 1;"/>
+                            <text x="486.0" y="218" text-anchor="middle" font-family="Lato, sans-serif" font-size="12.5" font-weight="700" style="fill: var(--deep-charcoal);">Dokumentation</text>
+                            <text x="486.0" y="238" text-anchor="middle" font-family="Lato, sans-serif" font-size="10.5" font-weight="400" style="fill: var(--warm-gray-dark);">Auftrag, Rahmen,</text>
+                            <text x="486.0" y="254" text-anchor="middle" font-family="Lato, sans-serif" font-size="10.5" font-weight="400" style="fill: var(--warm-gray-dark);">Entscheidung, Ausführung</text>
+                            <rect x="596" y="194" width="164" height="76" rx="6" style="fill: var(--warm-gray-light); stroke: var(--warm-gray-medium); stroke-width: 1;"/>
+                            <text x="678.0" y="218" text-anchor="middle" font-family="Lato, sans-serif" font-size="12.5" font-weight="700" style="fill: var(--deep-charcoal);">Benannte Rolle</text>
+                            <text x="678.0" y="238" text-anchor="middle" font-family="Lato, sans-serif" font-size="10.5" font-weight="400" style="fill: var(--warm-gray-dark);">für Konfiguration,</text>
+                            <text x="678.0" y="254" text-anchor="middle" font-family="Lato, sans-serif" font-size="10.5" font-weight="400" style="fill: var(--warm-gray-dark);">Überwachung und Freigabe</text>
+                            <path d="M294 270 L294 290 L102 290 L102 306" style="fill: none; stroke: var(--warm-gray-medium); stroke-width: 1.5; stroke-dasharray: 4 3;" marker-end="url(#acg-arr-fwd)"/>
+                            <!-- Row 4: outside the frame -->
+                            <rect x="20" y="310" width="164" height="76" rx="6" style="fill: var(--primary-red);"/>
+                            <text x="102.0" y="334" text-anchor="middle" font-family="Lato, sans-serif" font-size="12.5" font-weight="700" style="fill: white;">Außerhalb des Rahmens</text>
+                            <text x="102.0" y="354" text-anchor="middle" font-family="Lato, sans-serif" font-size="10.5" font-weight="400" style="fill: white;">menschliche Freigabe</text>
+                            <text x="102.0" y="370" text-anchor="middle" font-family="Lato, sans-serif" font-size="10.5" font-weight="400" style="fill: white;">zwingend</text>
+                            <line x1="186" y1="348" x2="209" y2="348" style="stroke: var(--primary-red); stroke-width: 2;" marker-end="url(#acg-arr-fwd)"/>
+                            <rect x="212" y="310" width="164" height="76" rx="6" style="fill: white; stroke: var(--primary-red); stroke-width: 1.5;"/>
+                            <text x="294.0" y="334" text-anchor="middle" font-family="Lato, sans-serif" font-size="12.5" font-weight="700" style="fill: var(--deep-charcoal);">Gegenpartei</text>
+                            <text x="294.0" y="354" text-anchor="middle" font-family="Lato, sans-serif" font-size="10.5" font-weight="400" style="fill: var(--warm-gray-dark);">erstmalig,</text>
+                            <text x="294.0" y="370" text-anchor="middle" font-family="Lato, sans-serif" font-size="10.5" font-weight="400" style="fill: var(--warm-gray-dark);">Freigabe regelmäßig</text>
+                            <text x="390.0" y="352" text-anchor="middle" font-family="Lato, sans-serif" font-size="10" font-weight="400" font-style="italic" style="fill: var(--warm-gray-dark);">oder</text>
+                            <rect x="404" y="310" width="164" height="76" rx="6" style="fill: white; stroke: var(--primary-red); stroke-width: 1.5;"/>
+                            <text x="486.0" y="334" text-anchor="middle" font-family="Lato, sans-serif" font-size="12.5" font-weight="700" style="fill: var(--deep-charcoal);">Betrag</text>
+                            <text x="486.0" y="354" text-anchor="middle" font-family="Lato, sans-serif" font-size="10.5" font-weight="400" style="fill: var(--warm-gray-dark);">atypisch,</text>
+                            <text x="486.0" y="370" text-anchor="middle" font-family="Lato, sans-serif" font-size="10.5" font-weight="400" style="fill: var(--warm-gray-dark);">Freigabe regelmäßig</text>
+                            <text x="582.0" y="352" text-anchor="middle" font-family="Lato, sans-serif" font-size="10" font-weight="400" font-style="italic" style="fill: var(--warm-gray-dark);">oder</text>
+                            <rect x="596" y="310" width="164" height="76" rx="6" style="fill: white; stroke: var(--primary-red); stroke-width: 1.5;"/>
+                            <text x="678.0" y="334" text-anchor="middle" font-family="Lato, sans-serif" font-size="12.5" font-weight="700" style="fill: var(--deep-charcoal);">Vertrag</text>
+                            <text x="678.0" y="354" text-anchor="middle" font-family="Lato, sans-serif" font-size="10.5" font-weight="400" style="fill: var(--warm-gray-dark);">Dauerschuldverhältnis,</text>
+                            <text x="678.0" y="370" text-anchor="middle" font-family="Lato, sans-serif" font-size="10.5" font-weight="400" style="fill: var(--warm-gray-dark);">Freigabe regelmäßig</text>
+                        </svg>
+                        <figcaption class="figure-caption">Die Zurechnung läuft von der Transaktion zurück zur Ersteinrichtung. Dort sind die vier Fragen schriftlich zu beantworten, und dort wird festgelegt, wann die menschliche Freigabe zwingend ist. Grafik: contraco.</figcaption>
+                    </figure>
+                    <!-- Worked example table, built only from this page's own terms, added 2026-10-14 -->
+                    <div class="example-table-wrap">
+                        <table class="example-table">
+                            <caption>Beispiel zur Veranschaulichung: eine Hotelbuchung innerhalb eines festgelegten Betragsrahmens</caption>
+                            <thead>
+                                <tr><th scope="col">Frage</th><th scope="col">Antwort für diesen Anwendungsfall</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><th scope="row">Willenskorridor</th><td>Der Agent darf Hotelbuchungen innerhalb des bei der Einrichtung gesetzten Betragsrahmens und nur gegenüber zulässigen Gegenparteien vornehmen. Die Grenzen sind technisch durchgesetzt und nicht nur in eine Richtlinie geschrieben.</td></tr>
+                                <tr><th scope="row">Menschliche Freigabe</th><td>Zwingend, sobald die Buchung den gesetzten Rahmen verlässt. Regelmäßig auch bei einem Hotel, das erstmalige Gegenpartei ist, und bei einem atypischen Betrag.</td></tr>
+                                <tr><th scope="row">Dokumentation</th><td>Je Buchung sind Auftrag, Rahmen, Entscheidung und Ausführung einzeln nachvollziehbar, ebenso die verworfenen Alternativen und die Grenze, die zuletzt gegriffen hat.</td></tr>
+                                <tr><th scope="row">Benannte Rolle</th><td>Je eine benannte Rolle für Konfiguration, Überwachung und Freigabe. Die Protokollierung liegt bei einer Rolle, die nicht zugleich den Umsatz des Kanals verantwortet.</td></tr>
+                            </tbody>
+                        </table>
+                        <p class="example-note">Das Beispiel verwendet ausschließlich die Begriffe und Regeln dieser Seite. Es stammt aus keinem Mandat.</p>
+                    </div>
                 </div>
             </div>
         </section>

@@ -665,7 +665,7 @@
     "@type": "WebPage",
     "url": "https://contraco.de/leading-ai-transformation.html",
     "name": "KI-Transformation führen: Die menschliche Seite | contraco",
-    "dateModified": "2026-10-03",
+    "dateModified": "2026-10-14",
     "isPartOf": {
         "@type": "WebSite",
         "@id": "https://contraco.de/#website",
@@ -707,6 +707,11 @@
             .leadership-competencies { grid-template-columns: 1fr; }
             .competency-card { min-width: 0; overflow-wrap: break-word; padding-left: 20px; padding-right: 20px; }
         }
+        /* Diagramm / Figure, 2026-10-14 */
+        .figure-block { background: var(--warm-white); border: 1px solid var(--warm-gray-light); border-radius: 8px; padding: 32px; margin: 32px 0; overflow-x: auto; }
+        .figure-block svg { width: 100%; height: auto; display: block; margin: 0 auto; }
+        .figure-caption { font-size: 0.85rem; color: var(--warm-gray-dark); text-align: center; margin-top: 16px; font-style: italic; }
+        @media (max-width: 600px) { .figure-block { padding: 16px; } .figure-block svg { min-width: 640px; } }
     </style>
 </head>
 <body>
@@ -926,6 +931,79 @@
                     <h2 class="content-title">Führen, wenn das Geführte selbst handelt</h2>
                     <p class="content-text">Die bisher beschriebenen Kompetenzen setzen voraus, dass am Ende jeder Entscheidung ein Mensch steht. Sobald Systeme im Betrieb selbst entscheiden, verschiebt sich die Führungsaufgabe an eine andere Stelle. Sie besteht nicht mehr darin, eine Entscheidung zu treffen, sondern darin, den Rahmen zu setzen, innerhalb dessen entschieden werden darf, und diesen Rahmen zu verantworten.</p>
                     <p class="content-text">Das ist unbequemer, als es klingt. Wer einen Rahmen setzt, trägt die Ergebnisse innerhalb dieses Rahmens, auch die, die er nie gesehen hat. Führungskräfte, die daran scheitern, scheitern selten an der Technik. Sie scheitern daran, dass sie die Verantwortung für Einzelfälle behalten wollen, die sie faktisch nicht mehr überblicken, und deshalb Freigabeschleifen einziehen, die den Nutzen der Automatisierung aufheben, ohne das Risiko zu senken. Die Alternative ist, den Rahmen eng zu setzen und ihn ausdrücklich zu verantworten.</p>
+                    <!-- Diagramm Rollen und Rahmen, contraco, 2026-10-14 -->
+                    <figure class="figure-block">
+                        <svg viewBox="0 0 780 410" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="lat-de-svg-title lat-de-svg-desc" style="max-width: 780px;">
+                            <title id="lat-de-svg-title">Zwei Korrekturen der Führung in der KI-Transformation</title>
+                            <desc id="lat-de-svg-desc">Oben die Ankündigung. Der häufige Pfad lässt die Frage, was mit den Rollen geschieht, offen, der Flurfunk antwortet pessimistisch, und der Widerstand wird später der Technik zugeschrieben. Die Korrektur sagt zuerst, was mit den Rollen geschieht, mit Zwischenstand und Termin, und benennt, was die Führung nicht weiß. Unten Systeme, die im Betrieb selbst entscheiden. Der häufige Pfad behält die Verantwortung für Einzelfälle und zieht Freigabeschleifen ein, die den Nutzen aufheben, ohne das Risiko zu senken. Die Korrektur setzt den Rahmen eng und verantwortet ihn ausdrücklich, einschließlich der Ergebnisse, die niemand gesehen hat.</desc>
+                            <defs>
+                                <marker id="latde-g" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" style="fill: var(--warm-gray-medium);"/></marker>
+                                <marker id="latde-r" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" style="fill: var(--primary-red);"/></marker>
+                            </defs>
+                            <text x="20" y="22" text-anchor="start" font-size="13" font-weight="700" style="font-family: var(--font-sans); fill: var(--deep-charcoal);">1  Sagen, was mit den Rollen geschieht</text>
+                            <rect x="20" y="36" width="165" height="50" rx="6" style="fill: none; stroke: var(--warm-gray-medium); stroke-width: 1.5;"/>
+                            <text x="102.5" y="57" text-anchor="middle" font-size="12" font-weight="700" style="font-family: var(--font-sans); fill: var(--deep-charcoal);">Ankündigung</text>
+                            <text x="102.5" y="74" text-anchor="middle" font-size="10.5" style="font-family: var(--font-sans); fill: var(--warm-gray-dark);">beantwortet nur das Ob</text>
+                            <rect x="215" y="36" width="165" height="50" rx="6" style="fill: none; stroke: var(--warm-gray-medium); stroke-width: 1.5;"/>
+                            <text x="297.5" y="57" text-anchor="middle" font-size="12" font-weight="700" style="font-family: var(--font-sans); fill: var(--deep-charcoal);">„Was mit mir?“</text>
+                            <text x="297.5" y="74" text-anchor="middle" font-size="10.5" style="font-family: var(--font-sans); fill: var(--warm-gray-dark);">bleibt offen</text>
+                            <rect x="410" y="36" width="165" height="50" rx="6" style="fill: none; stroke: var(--warm-gray-medium); stroke-width: 1.5;"/>
+                            <text x="492.5" y="57" text-anchor="middle" font-size="12" font-weight="700" style="font-family: var(--font-sans); fill: var(--deep-charcoal);">Flurfunk antwortet</text>
+                            <text x="492.5" y="74" text-anchor="middle" font-size="10.5" style="font-family: var(--font-sans); fill: var(--warm-gray-dark);">immer pessimistisch</text>
+                            <rect x="605" y="36" width="165" height="50" rx="6" style="fill: var(--deep-charcoal);"/>
+                            <text x="687.5" y="57" text-anchor="middle" font-size="12" font-weight="700" style="font-family: var(--font-sans); fill: var(--warm-white);">Widerstand</text>
+                            <text x="687.5" y="74" text-anchor="middle" font-size="10.5" style="font-family: var(--font-sans); fill: var(--warm-white);">der Technik zugeschrieben</text>
+                            <line x1="185" y1="61" x2="213" y2="61" style="stroke: var(--warm-gray-medium); stroke-width: 1.6;" marker-end="url(#latde-g)"/>
+                            <line x1="380" y1="61" x2="408" y2="61" style="stroke: var(--warm-gray-medium); stroke-width: 1.6;" marker-end="url(#latde-g)"/>
+                            <line x1="575" y1="61" x2="603" y2="61" style="stroke: var(--warm-gray-medium); stroke-width: 1.6;" marker-end="url(#latde-g)"/>
+                            <rect x="215" y="104" width="165" height="50" rx="6" style="fill: var(--primary-red);"/>
+                            <text x="297.5" y="125" text-anchor="middle" font-size="12" font-weight="700" style="font-family: var(--font-sans); fill: var(--warm-white);">Rollen zuerst sagen</text>
+                            <text x="297.5" y="142" text-anchor="middle" font-size="10.5" style="font-family: var(--font-sans); fill: var(--warm-white);">Zwischenstand mit Termin</text>
+                            <rect x="410" y="104" width="165" height="50" rx="6" style="fill: var(--primary-red);"/>
+                            <text x="492.5" y="125" text-anchor="middle" font-size="12" font-weight="700" style="font-family: var(--font-sans); fill: var(--warm-white);">Nichtwissen benennen</text>
+                            <text x="492.5" y="142" text-anchor="middle" font-size="10.5" style="font-family: var(--font-sans); fill: var(--warm-white);">statt Sicherheit behaupten</text>
+                            <rect x="605" y="104" width="165" height="50" rx="6" style="fill: var(--primary-red);"/>
+                            <text x="687.5" y="125" text-anchor="middle" font-size="12" font-weight="700" style="font-family: var(--font-sans); fill: var(--warm-white);">Trägt weiter</text>
+                            <text x="687.5" y="142" text-anchor="middle" font-size="10.5" style="font-family: var(--font-sans); fill: var(--warm-white);">als Schweigen</text>
+                            <path d="M102.5,86 L102.5,129 L213,129" style="fill: none; stroke: var(--primary-red); stroke-width: 1.6;" marker-end="url(#latde-r)"/>
+                            <line x1="380" y1="129" x2="408" y2="129" style="stroke: var(--primary-red); stroke-width: 1.6;" marker-end="url(#latde-r)"/>
+                            <line x1="575" y1="129" x2="603" y2="129" style="stroke: var(--primary-red); stroke-width: 1.6;" marker-end="url(#latde-r)"/>
+                            <line x1="20" y1="184" x2="760" y2="184" style="stroke: var(--warm-gray-light); stroke-width: 1;"/>
+                            <text x="20" y="214" text-anchor="start" font-size="13" font-weight="700" style="font-family: var(--font-sans); fill: var(--deep-charcoal);">2  Den Rahmen verantworten, in dem Systeme entscheiden</text>
+                            <rect x="20" y="228" width="165" height="50" rx="6" style="fill: none; stroke: var(--warm-gray-medium); stroke-width: 1.5;"/>
+                            <text x="102.5" y="249" text-anchor="middle" font-size="12" font-weight="700" style="font-family: var(--font-sans); fill: var(--deep-charcoal);">Systeme entscheiden</text>
+                            <text x="102.5" y="266" text-anchor="middle" font-size="10.5" style="font-family: var(--font-sans); fill: var(--warm-gray-dark);">im Betrieb selbst</text>
+                            <rect x="215" y="228" width="165" height="50" rx="6" style="fill: none; stroke: var(--warm-gray-medium); stroke-width: 1.5;"/>
+                            <text x="297.5" y="249" text-anchor="middle" font-size="12" font-weight="700" style="font-family: var(--font-sans); fill: var(--deep-charcoal);">Einzelfälle behalten</text>
+                            <text x="297.5" y="266" text-anchor="middle" font-size="10.5" style="font-family: var(--font-sans); fill: var(--warm-gray-dark);">faktisch nicht überblickt</text>
+                            <rect x="410" y="228" width="165" height="50" rx="6" style="fill: none; stroke: var(--warm-gray-medium); stroke-width: 1.5;"/>
+                            <text x="492.5" y="249" text-anchor="middle" font-size="12" font-weight="700" style="font-family: var(--font-sans); fill: var(--deep-charcoal);">Freigabeschleifen</text>
+                            <text x="492.5" y="266" text-anchor="middle" font-size="10.5" style="font-family: var(--font-sans); fill: var(--warm-gray-dark);">einziehen</text>
+                            <rect x="605" y="228" width="165" height="50" rx="6" style="fill: var(--deep-charcoal);"/>
+                            <text x="687.5" y="249" text-anchor="middle" font-size="12" font-weight="700" style="font-family: var(--font-sans); fill: var(--warm-white);">Nutzen aufgehoben</text>
+                            <text x="687.5" y="266" text-anchor="middle" font-size="10.5" style="font-family: var(--font-sans); fill: var(--warm-white);">Risiko nicht gesenkt</text>
+                            <line x1="185" y1="253" x2="213" y2="253" style="stroke: var(--warm-gray-medium); stroke-width: 1.6;" marker-end="url(#latde-g)"/>
+                            <line x1="380" y1="253" x2="408" y2="253" style="stroke: var(--warm-gray-medium); stroke-width: 1.6;" marker-end="url(#latde-g)"/>
+                            <line x1="575" y1="253" x2="603" y2="253" style="stroke: var(--warm-gray-medium); stroke-width: 1.6;" marker-end="url(#latde-g)"/>
+                            <rect x="215" y="296" width="165" height="50" rx="6" style="fill: var(--primary-red);"/>
+                            <text x="297.5" y="317" text-anchor="middle" font-size="12" font-weight="700" style="font-family: var(--font-sans); fill: var(--warm-white);">Rahmen eng setzen</text>
+                            <text x="297.5" y="334" text-anchor="middle" font-size="10.5" style="font-family: var(--font-sans); fill: var(--warm-white);">wo entschieden werden darf</text>
+                            <rect x="410" y="296" width="165" height="50" rx="6" style="fill: var(--primary-red);"/>
+                            <text x="492.5" y="317" text-anchor="middle" font-size="12" font-weight="700" style="font-family: var(--font-sans); fill: var(--warm-white);">Rahmen verantworten</text>
+                            <text x="492.5" y="334" text-anchor="middle" font-size="10.5" style="font-family: var(--font-sans); fill: var(--warm-white);">ausdrücklich</text>
+                            <rect x="605" y="296" width="165" height="50" rx="6" style="fill: var(--primary-red);"/>
+                            <text x="687.5" y="317" text-anchor="middle" font-size="12" font-weight="700" style="font-family: var(--font-sans); fill: var(--warm-white);">Ergebnisse tragen</text>
+                            <text x="687.5" y="334" text-anchor="middle" font-size="10.5" style="font-family: var(--font-sans); fill: var(--warm-white);">auch die ungesehenen</text>
+                            <path d="M102.5,278 L102.5,321 L213,321" style="fill: none; stroke: var(--primary-red); stroke-width: 1.6;" marker-end="url(#latde-r)"/>
+                            <line x1="380" y1="321" x2="408" y2="321" style="stroke: var(--primary-red); stroke-width: 1.6;" marker-end="url(#latde-r)"/>
+                            <line x1="575" y1="321" x2="603" y2="321" style="stroke: var(--primary-red); stroke-width: 1.6;" marker-end="url(#latde-r)"/>
+                            <rect x="20" y="378" width="22" height="14" rx="3" style="fill: none; stroke: var(--warm-gray-medium); stroke-width: 1.5;"/>
+                            <text x="50" y="389" text-anchor="start" font-size="11" font-weight="400" style="font-family: var(--font-sans); fill: var(--warm-gray-dark);">Häufiger Pfad</text>
+                            <rect x="170" y="378" width="22" height="14" rx="3" style="fill: var(--primary-red);"/>
+                            <text x="200" y="389" text-anchor="start" font-size="11" font-weight="400" style="font-family: var(--font-sans); fill: var(--warm-gray-dark);">Korrektur aus diesem Leitfaden</text>
+                        </svg>
+                        <figcaption class="figure-caption">Die beiden Korrekturen dieses Leitfadens als Ablauf. Zuerst sagt die Führung, was mit den Rollen geschieht, danach verantwortet sie den Rahmen, in dem Systeme entscheiden. Diagramm: contraco, eigene Darstellung.</figcaption>
+                    </figure>
             </div>
         </div>
     </section>
