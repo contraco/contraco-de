@@ -574,40 +574,47 @@
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "contraco",
+  "@id": "https://contraco.de/#organization",
+  "name": "contraco GmbH",
+  "legalName": "contraco GmbH",
   "url": "https://contraco.de/",
+  "image": "https://contraco.de/Logo_rectangle.svg",
   "logo": {
     "@type": "ImageObject",
     "url": "https://contraco.de/Logo_rectangle.svg",
     "width": 400,
     "height": 100
   },
+  "description": "Management- und Unternehmensberatung mit Sitz in Leipzig.",
   "email": "transformation@contraco.net",
-  "telephone": "+13129400326",
+  "telephone": "+49 341 5900474",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "1209 10th Ln.",
-    "addressLocality": "Ava",
-    "addressRegion": "MO",
-    "postalCode": "65608",
-    "addressCountry": "US"
+    "streetAddress": "Prellerstraße 57",
+    "addressLocality": "Leipzig",
+    "postalCode": "04155",
+    "addressCountry": "DE"
   },
-  "foundingDate": "1998",
-  "founder": {
-      "@type": "Person",
-      "@id": "https://meltke.com/#person",
-      "name": "Frank Meltke",
-      "url": "https://meltke.com"
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "Handelsregister, Amtsgericht Leipzig",
+    "value": "HRB 46242"
   },
-  "areaServed": "Global",
+  "areaServed": "DE",
+  "brand": {
+    "@type": "Brand",
+    "name": "contraco",
+    "url": "https://contraco.com/brand.html"
+  },
   "sameAs": [
-    "https://www.wikidata.org/wiki/Q139681815",
-    "https://www.linkedin.com/company/contraco",
-    "https://contraco.com",
-    "https://contraco.net",
-    "https://contraco.ru",
-    "https://contraco.co.kr"
-  ]
+    "https://maps.google.com/?cid=2500591396921629178"
+  ],
+  "parentOrganization": {
+    "@type": "Organization",
+    "@id": "https://contraco.net/#organization",
+    "name": "contraco",
+    "url": "https://contraco.net/"
+  }
 }
 </script>
 
@@ -623,7 +630,7 @@
             "name": "Frank Meltke",
             "url": "https://meltke.com"
         },
-        "publisher": { "@type": "Organization", "name": "contraco", "url": "https://contraco.de/" },
+        "publisher": {"@type": "Organization", "@id": "https://contraco.de/#organization", "name": "contraco GmbH", "url": "https://contraco.de/"},
         "datePublished": "2025-09-21",
         "dateModified": "2026-08-31",
         "url": "https://contraco.de/leading-ai-transformation.html",
