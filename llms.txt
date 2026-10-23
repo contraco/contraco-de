@@ -33,6 +33,7 @@ contraco publiziert auf vier Domains: [Englisch](https://contraco.net), [Deutsch
 
 <!-- AUTO-PAGES:START -->
 - [Über contraco | Transformation Veterans seit 1998](https://contraco.de/about.html)
+- [Bestätigung ist keine Ermächtigung](https://contraco.de/agent-mandate-travel-terms.html)
 - [Agentic Commerce Beratung für DACH](https://contraco.de/agentic-commerce-beratung.html)
 - [Die Kontrollschicht im Agentic Commerce](https://contraco.de/agentic-commerce-control-layer.html)
 - [Delegationskette: KI-Agent, PSD2 und Mandat](https://contraco.de/agentic-commerce-delegation-chain.html)
