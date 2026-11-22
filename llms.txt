@@ -70,6 +70,7 @@ contraco publiziert auf vier Domains: [Englisch](https://contraco.net), [Deutsch
 - [Kann ein KI-Agent einen Vertrag schließen?](https://contraco.de/ki-agent-vertragsschluss.html)
 - [Virtuelle Karten sind nur eine Brücke](https://contraco.de/ki-agent-virtuelle-karte.html)
 - [Wer hat gezahlt, wenn der KI-Agent zahlt?](https://contraco.de/ki-agent-zahlung-autorisierung.html)
+- [Welcher Zahlungsweg trägt das Mandat des Kunden?](https://contraco.de/ki-agent-zahlungsanbieter.html)
 - [Wer dem KI-Agenten sein Passwort gibt](https://contraco.de/ki-agent-zugangsdaten.html)
 - [Was der Betriebsrat bei KI mitbestimmt](https://contraco.de/ki-einfuehrung-betriebsrat.html)
 - [Die KI-Verordnung nach dem Digital-Omnibus](https://contraco.de/ki-verordnung-digital-omnibus.html)
