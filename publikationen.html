@@ -82,11 +82,59 @@
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://contraco.de/#organization",
+  "name": "contraco GmbH",
+  "legalName": "contraco GmbH",
+  "url": "https://contraco.de/",
+  "image": "https://contraco.de/Logo_rectangle.svg",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://contraco.de/Logo_rectangle.svg",
+    "width": 400,
+    "height": 100
+  },
+  "description": "Management- und Unternehmensberatung mit Sitz in Leipzig.",
+  "email": "transformation@contraco.net",
+  "telephone": "+49 341 5900474",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Prellerstraße 57",
+    "addressLocality": "Leipzig",
+    "postalCode": "04155",
+    "addressCountry": "DE"
+  },
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "Handelsregister, Amtsgericht Leipzig",
+    "value": "HRB 46242"
+  },
+  "areaServed": "DE",
+  "brand": {
+    "@type": "Brand",
+    "name": "contraco",
+    "url": "https://contraco.com/brand.html"
+  },
+  "sameAs": [
+    "https://maps.google.com/?cid=2500591396921629178"
+  ],
+  "parentOrganization": {
+    "@type": "Organization",
+    "@id": "https://contraco.net/#organization",
+    "name": "contraco",
+    "url": "https://contraco.net/"
+  }
+}
+</script>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "Publikationen und Presse: Frank Meltke und contraco",
   "description": "Presseartikel, Expertenbeiträge, Konferenzpräsentationen und akademische Arbeiten von Frank Meltke und contraco.",
   "url": "https://contraco.de/publikationen.html",
-  "dateModified": "2026-11-20",
+  "dateModified": "2026-11-23",
   "isPartOf": {
     "@type": "WebSite",
     "@id": "https://contraco.de/#website",
@@ -102,6 +150,23 @@
   },
   "publisher": {"@type": "Organization", "@id": "https://contraco.de/#organization", "name": "contraco GmbH", "url": "https://contraco.de/"},
   "hasPart": [
+    {
+      "@type": "NewsArticle",
+      "headline": "How IT Leaders Make Everyday Work More Secure",
+      "url": "https://ciogrid.com/qa/how-it-leaders-make-everyday-work-more-secure/",
+      "datePublished": "2026-11-23",
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "CIO Grid"
+      },
+      "mentions": {
+          "@type": "Person",
+          "@id": "https://meltke.com/#person",
+          "name": "Frank Meltke",
+          "url": "https://meltke.com"
+      }
+    },
     {
       "@type": "NewsArticle",
       "headline": "Frank Meltke Of Contraco On The Top 5 Future Payment Processing Trends",
@@ -1133,6 +1198,19 @@
                 <h2 class="section-title">contraco in der internationalen Presse</h2>
                 <p class="section-intro">contraco-Analysen zu KI-Transformation, IT-Effizienz und dem menschlichen Faktor des Wandels wurden in führenden Fachmedien auf vier Kontinenten und in acht Sprachen veröffentlicht.</p>
                 <div class="press-grid">
+
+                    <!-- CIO Grid - Everyday Work More Secure Nov 2026 -->
+                    <div class="press-card">
+                        <p class="press-outlet">CIO Grid</p>
+                        <p class="press-date">23. November 2026</p>
+                        <span class="press-tag">Expertenmeinung</span>
+                        <h3 class="press-title">How IT Leaders Make Everyday Work More Secure</h3>
+                        <p class="press-excerpt">Sicherheit wird zur Hürde, wenn der sichere Weg langsamer ist als der unsichere, und dann tun Menschen, was funktioniert, und schweigen darüber. Wo ein Unternehmen öffentliche Chatbots verbietet und nichts an ihre Stelle setzt, geben Beschäftigte Kundendaten trotzdem dort ein, deshalb muss ein freigegebenes KI-Werkzeug bereitstehen, bevor die öffentlichen gesperrt werden. Die sichere Option sollte der Standard sein, den niemand erst wählen muss, und die Umwege, die Mitarbeitende schon heute nutzen, ohne Schuldzuweisung erfragt, zeigen, wo der offizielle Weg zu langsam ist oder fehlt.</p>
+                        <a href="https://ciogrid.com/qa/how-it-leaders-make-everyday-work-more-secure/" class="press-link" target="_blank" rel="noopener">
+                            Zum Artikel
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                    </div>
 
                     <!-- Authority Magazine - Top 5 Future Payment Processing Trends Nov 2026 -->
                     <div class="press-card">
